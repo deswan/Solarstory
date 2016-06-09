@@ -205,10 +205,12 @@ class StoryController extends Controller
             $res['articles']=0;
         }
         $this->assign('articles',$res['articles']);
-        $this->assign('articlepage',intval($res['count']/$this->articleLimit));
+
+        //分页
+        $this->assign('articlepage',intval(($res['count']-1)/$this->articleLimit)+1);
+        $this->assign('currentpage',$page);
 
         $this->assign('currentUserInform',$mu->getUserInformation($uid));
-
         $this->assign('userInform',$mu->getUserInformation($userid));
 
         $this->display();
@@ -236,7 +238,10 @@ class StoryController extends Controller
             $res['articles']=0;
         }
         $this->assign('articles',$res['articles']);
-        $this->assign('articlepage',intval($res['count']/$this->articleLimit));
+
+        //分页
+        $this->assign('articlepage',intval(($res['count']-1)/$this->articleLimit)+1);
+        $this->assign('currentpage',$page);
 
         $this->assign('currentUserInform',$mu->getUserInformation($uid));
 
@@ -265,11 +270,12 @@ class StoryController extends Controller
             $res['articles']=0;
         }
         $this->assign('articles',$res['articles']);
-        $this->assign('articlepage',intval($res['count']/$this->articleLimit));
 
-        $this->assign('currentUserInform',$mu->getUserInformation($uid));
+        //分页
+        $this->assign('articlepage',intval(($res['count']-1)/$this->articleLimit)+1);
         $this->assign('currentpage',$page);
 
+        $this->assign('currentUserInform',$mu->getUserInformation($uid));
         $this->assign('userInform',$mu->getUserInformation($userid));
 
         $this->display();
@@ -323,11 +329,13 @@ class StoryController extends Controller
             $res['comment']=0;
         }
         $this->assign('comments',$res['comment']);
-        // dump($res['comment']);
-        $this->assign('page',intval($res['count']/$this->articleLimit));
+
+        //分页
+        $this->assign('articlepage',intval(($res['count']-1)/$this->articleLimit)+1);
+        $this->assign('currentpage',$page);
+
 
         $this->assign('currentUserInform',$mu->getUserInformation($userid));
-
         $this->assign('userInform',$mu->getUserInformation($userid));
 
         $this->display();
@@ -473,6 +481,7 @@ class StoryController extends Controller
         $this->ajaxReturn($res);
     }
 
+    //获取关注\被关注的记录(在js中作区分)
     public function ajaxLikeRecord(){
         if(!I('get.idlike/d')||!I('get.belikeid/d')||!I('get.page/d',1)) return;
         $mau = D('article_user');

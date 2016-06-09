@@ -33,13 +33,13 @@
 							<span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-lock"></i></span>
 							<input type="password" name="password" name="username" class="form-control" placeholder="Password" aria-describedby="basic-addon2">
 						</div>
-
+						<fieldset>
 						<div class="input-group">
 							<span class="input-group-addon" id="basic-addon3">验证码</span>
 							<input type="text" name="verify" class="form-control" placeholder="" aria-describedby="basic-addon2">
 						</div>
-
-						<img src="<?php echo U('story/code');?>" width=120px onclick="this.src=this.src">
+</fieldset>
+						<img class="code" src="<?php echo U('story/code');?>" width=120px onclick="this.src=this.src">
 
 						<div class="btn-group btn-group-justified" role="group" aria-label="...">
 							<div class="btn-group" role="group" aria-label="...">
@@ -54,38 +54,59 @@
 
 
 <div class="modal fade modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-	<div class="modal-dialog modal-sm">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
+			<div class="modal-body clearfix">
+				<form class="form-1 signup" action=<?php echo U('user/signup');?> method="post">
 
-			<div class="modal-body">
-				<form class="form-1" action=<?php echo U('user/signup');?> method="post">
+					<h2>注册</h2>
+					<fieldset>
+					<div class="input-group">
+						<span class="input-group-addon" id="basic-addon4"><i class="glyphicon glyphicon-user"></i></span>
+						<input type="text" name="username" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+					</div>
+						</fieldset>
+					<fieldset>
+					<div class="input-group">
+						<span class="input-group-addon" id="basic-addon5"><i class="glyphicon glyphicon-lock"></i></span>
+						<input type="password" name="password" name="username" class="form-control" placeholder="Password" aria-describedby="basic-addon2">
+					</div>
+					</fieldset>
+					<fieldset>
+					<div class="input-group">
+						<span class="input-group-addon" id="basic-addon6">验证码</span>
+						<input type="text" name="verify" class="form-control" placeholder="" aria-describedby="basic-addon2">
+					</div>
+						</fieldset>
 
-					<h2>注册</h4>
+					<img class="code" src="<?php echo U('story/code');?>" width=120px onclick="this.src=this.src">
 
-						<div class="input-group">
-							<span class="input-group-addon" id="basic-addon4"><i class="glyphicon glyphicon-user"></i></span>
-							<input type="text" name="username" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+					<div class="btn-group btn-group-justified" role="group" aria-label="...">
+						<div class="btn-group" role="group" aria-label="...">
+							<input value="立即注册" class="btn btn-warning " type="submit" >
 						</div>
-
-						<div class="input-group">
-							<span class="input-group-addon" id="basic-addon5"><i class="glyphicon glyphicon-lock"></i></span>
-							<input type="password" name="password" name="username" class="form-control" placeholder="Password" aria-describedby="basic-addon2">
-						</div>
-
-						<div class="input-group">
-							<span class="input-group-addon" id="basic-addon6">验证码</span>
-							<input type="text" name="verify" class="form-control" placeholder="" aria-describedby="basic-addon2">
-						</div>
-
-						<img src="<?php echo U('story/code');?>" width=120px onclick="this.src=this.src">
-
-						<div class="btn-group btn-group-justified" role="group" aria-label="...">
-							<div class="btn-group" role="group" aria-label="...">
-								<input value="立即注册" class="btn btn-warning " type="submit" >
-							</div>
-						</div>
+					</div>
 				</form>
+				<div id="intro">
+					<p>欢迎来到这个节气故事的聚集地</p>
+					<p>注册之后您可以:</p>
+					<ul>
+						<li>关注您喜欢的故事</li>
+						<li>查看您关注的故事的评论</li>
+					</ul>
+					<p>去发掘更多的故事吧<!doctype html>
+						<html lang="en">
+						<head>
+							<meta charset="UTF-8">
+							<title>Document</title>
+						</head>
+						<body>
+						
+						</body>
+						</html></p>
+				</div>
 			</div>
+
 		</div>
 	</div>
 </div>
@@ -129,12 +150,7 @@
         <?php if(!empty($userInform)): ?><a href=<?php echo U('story/homestory',['uid'=>$userInform['id']]);?>><li>故事<i class="fa fa-pencil"></i></li></a>
             <a href=<?php echo U('story/likeBeStory',['uid'=>$userInform['id']]);?>><li>新的关注<i class="fa fa-star"></i></li></a>
             <a href=<?php echo U('story/commentout');?>><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
-            <a href=<?php echo U('story/my');?> class='active'><li>个人资料<i></i></li></a><?php endif; ?>
-        <?php if(empty($userInform)): ?><a href='#'><li>故事<i class="fa fa-pencil"></i></li></a>
-            <a href="#"><li>新的关注<i class="fa fa-star"></i></li></a>
-            <a href="#"><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
-            <a href=#><li>个人资料<i></i></li></a><?php endif; ?>
-
+            <a href=<?php echo U('story/my');?> class='active'><li>个人资料<i class="fa fa-pencil"></i></li></a><?php endif; ?>
     </ul>
 </div>
 <div class="left">

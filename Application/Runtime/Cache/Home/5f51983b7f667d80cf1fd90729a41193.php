@@ -14,6 +14,8 @@
 >
 
 <div class='storybg'></div>
+<canvas id="canvas" width="1100px" height="1000px">
+</canvas>
 
 <div class="modal fade modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 	<div class="modal-dialog modal-sm">
@@ -33,12 +35,12 @@
 							<span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-lock"></i></span>
 							<input type="password" name="password" name="username" class="form-control" placeholder="Password" aria-describedby="basic-addon2">
 						</div>
-
-						<div class="input-group">
-							<span class="input-group-addon" id="basic-addon3">验证码</span>
-							<input type="text" name="verify" class="form-control" placeholder="" aria-describedby="basic-addon2">
-						</div>
-
+						<fieldset>
+							<div class="input-group">
+								<span class="input-group-addon" id="basic-addon3">验证码</span>
+								<input type="text" name="verify" class="form-control" placeholder="" aria-describedby="basic-addon2">
+							</div>
+						</fieldset>
 						<img class="code" src="<?php echo U('story/code');?>" width=120px onclick="this.src=this.src">
 
 						<div class="btn-group btn-group-justified" role="group" aria-label="...">
@@ -61,23 +63,23 @@
 
 					<h2>注册</h2>
 					<fieldset>
-					<div class="input-group">
-						<span class="input-group-addon" id="basic-addon4"><i class="glyphicon glyphicon-user"></i></span>
-						<input type="text" name="username" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
-					</div>
-						</fieldset>
-					<fieldset>
-					<div class="input-group">
-						<span class="input-group-addon" id="basic-addon5"><i class="glyphicon glyphicon-lock"></i></span>
-						<input type="password" name="password" name="username" class="form-control" placeholder="Password" aria-describedby="basic-addon2">
-					</div>
+						<div class="input-group">
+							<span class="input-group-addon" id="basic-addon4"><i class="glyphicon glyphicon-user"></i></span>
+							<input type="text" name="username" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+						</div>
 					</fieldset>
 					<fieldset>
-					<div class="input-group">
-						<span class="input-group-addon" id="basic-addon6">验证码</span>
-						<input type="text" name="verify" class="form-control" placeholder="" aria-describedby="basic-addon2">
-					</div>
-						</fieldset>
+						<div class="input-group">
+							<span class="input-group-addon" id="basic-addon5"><i class="glyphicon glyphicon-lock"></i></span>
+							<input type="password" name="password" name="username" class="form-control" placeholder="Password" aria-describedby="basic-addon2">
+						</div>
+					</fieldset>
+					<fieldset>
+						<div class="input-group">
+							<span class="input-group-addon" id="basic-addon6">验证码</span>
+							<input type="text" name="verify" class="form-control" placeholder="" aria-describedby="basic-addon2">
+						</div>
+					</fieldset>
 
 					<img class="code" src="<?php echo U('story/code');?>" width=120px onclick="this.src=this.src">
 
@@ -101,7 +103,7 @@
 							<title>Document</title>
 						</head>
 						<body>
-						
+
 						</body>
 						</html></p>
 				</div>
@@ -144,18 +146,16 @@
 <div class="clear"></div>
 <div class="container">
 
+
+<!--<canvas id="canvas" width="1100px" height="1000px">-->
+<!--</canvas>-->
 		<div class='leftnav'>
 			<ul>
-				<a href=<?php echo U('story/index');?> class='active'><li>首页<i class="glyphicon glyphicon-home"></i></li></a>
+				<a href=<?php echo U('story/index');?> class='active'><li>发现<i class="glyphicon glyphicon-home"></i></li></a>
 				<?php if(!empty($userInform)): ?><a href=<?php echo U('story/homestory',['uid'=>$userInform['id']]);?>><li>故事<i class="fa fa-pencil"></i></li></a>
 				<a href=<?php echo U('story/likeBeStory',['uid'=>$userInform['id']]);?>><li>新的关注<i class="fa fa-star"></i></li></a>
 				<a href=<?php echo U('story/commentout');?>><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
-					<a href=<?php echo U('story/my');?>><li>个人资料<i></i></li></a><?php endif; ?>
-				<?php if(empty($userInform)): ?><a href='#'><li>故事<i class="fa fa-pencil"></i></li></a>
-				<a href="#"><li>新的关注<i class="fa fa-star"></i></li></a>
-				<a href="#"><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
-					<a href=#><li>个人资料<i></i></li></a><?php endif; ?>
-
+					<a href=<?php echo U('story/my');?>><li>个人资料<i class="fa fa-pencil"></i></li></a><?php endif; ?>
 			</ul>
 		</div>
 		<div class="left">
@@ -273,10 +273,10 @@
 			<a id='logout' href=<?php echo U('user/logout');?>>退出</a><?php endif; ?>
 		<?php if(empty($userInform)): ?><div class="btn-group btn-group-justified" role="group" aria-label="...">
 				<div class="btn-group" role="group">
-					<button type="button" class="btn btn-default" data-toggle="modal" data-target=".modal1">注册</button>
+					<button type="button" class="btn btn-default" data-toggle="modal" data-target=".modal1">登陆</button>
 				</div>
 				<div class="btn-group" role="group">
-					<button type="button" class="btn btn-default" data-toggle="modal" data-target=".modal2">登陆</button>
+					<button type="button" class="btn btn-default" data-toggle="modal" data-target=".modal2">注册</button>
 				</div>
 			</div><?php endif; ?>
 
@@ -286,7 +286,7 @@
 		<form method="get" action="/solarstory/index.php/home/story/search">
 			<div class="input-group">
 
-				<input type="text" class="form-control" name="key" placeholder="搜索" aria-describedby="sizing-addon2">
+				<input type="text" class="form-control" name="key" placeholder="搜索标签" aria-describedby="sizing-addon2">
 				<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
 			</div>
 		</form>
@@ -310,3 +310,4 @@
 	<script type="text/javascript" src="/solarstory/Public/js/bootstrap_min.js"></script>
 </body>
 </html>
+	<script src="/solarstory/Public/js/StoryIndexCanvas.js"></script>

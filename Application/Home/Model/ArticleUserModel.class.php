@@ -23,6 +23,7 @@ class ArticleUserModel extends Model{
 		if($this->where($data)->delete())
 			return true;
 	}
+	//idlike:谁喜欢	//likeid:被喜欢
 	public function getLikeRecord($idlike,$likeid,$page){
 		$startNumber = ($page-1)*5;
 		$belike = $this->table('article')->where(['userid'=>$likeid])->buildSql();
@@ -34,6 +35,7 @@ class ArticleUserModel extends Model{
 		$count = $this->distinct(true)->alias('au')->where(['au.userid'=>$idlike])
 			->join("$belike a ON au.articleid=a.id")
 			->count();
+		\Think\log::write($count);
 		return ['articles'=>$res,'count'=>$count];
 	}
 	

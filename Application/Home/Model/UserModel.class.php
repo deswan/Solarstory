@@ -24,16 +24,12 @@ class UserModel extends Model{
     	}
     }
     public function valiLogin($username,$password){
-    	//md
-
     	$tuple = $this->where(['username'=>"$username"])->find();
     	if(!$tuple) return 0;	//找不到该用户名
-    	if($password!=$tuple['password']) return 1;		//密码不正确
+    	if($password!=$tuple['password']) return -1;		//密码不正确
     	return $tuple['id'];
     }
 	public function getUserInformation($uid){
-		// $loveTo = $this->table('article_user')->group('userid')
-		// ->field('userid,count(*) as likenum')->buildSql();
 
 		//该用户的故事数目
 		$story = $this->table('article')->group('userid')

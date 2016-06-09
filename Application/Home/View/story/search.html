@@ -6,13 +6,8 @@
             <a href=<{:U('story/homestory',['uid'=>$userInform['id']])}>><li>故事<i class="fa fa-pencil"></i></li></a>
             <a href=<{:U('story/likeBeStory',['uid'=>$userInform['id']])}>><li>新的关注<i class="fa fa-star"></i></li></a>
             <a href=<{:U('story/commentout')}>><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
+            <a href=<{:U('story/my')}>><li>个人资料<i class="fa fa-pencil"></i></li></a>
         </notempty>
-        <empty name='userInform'>
-            <a href='#'><li>故事<i class="fa fa-pencil"></i></li></a>
-            <a href="#"><li>新的关注<i class="fa fa-star"></i></li></a>
-            <a href="#"><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
-        </empty>
-
     </ul>
 </div>
 <div class="left">
@@ -172,10 +167,10 @@
         <empty name='userInform'>
             <div class="btn-group btn-group-justified" role="group" aria-label="...">
                 <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target=".modal1">注册</button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target=".modal1">登陆</button>
                 </div>
                 <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target=".modal2">登陆</button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target=".modal2">注册</button>
                 </div>
             </div>
         </empty>
@@ -202,5 +197,6 @@
         </volist>
     </div>
 </div>
+
 
 <include file='public/footer' />

@@ -1,18 +1,13 @@
 <include file='public/header' />
 		<div class='leftnav'>
 			<ul>
-				<a href=<{:U('story/index')}> class=active><li>首页<i class="glyphicon glyphicon-home"></i></li></a>
+				<a href=<{:U('story/index')}> class='active'><li>发现<i class="glyphicon glyphicon-home"></i></li></a>
 				<notempty name='userInform'>
-				<a href=<{:U('story/homestory',['uid'=>$userInform['id']])}>><li>故事<i class="fa fa-pencil"></i></li></a>
-				<a href=<{:U('story/homelike',['uid'=>$userInform['id']])}>><li>关注度<i class="fa fa-star"></i></li></a>
+					<a href=<{:U('story/homestory',['uid'=>$userInform['id']])}>><li>故事<i class="fa fa-pencil"></i></li></a>
+					<a href=<{:U('story/likeBeStory',['uid'=>$userInform['id']])}>><li>新的关注<i class="fa fa-star"></i></li></a>
+					<a href=<{:U('story/commentout')}>><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
+					<a href=<{:U('story/my')}>><li>个人资料<i class="fa fa-pencil"></i></li></a>
 				</notempty>
-				<empty name='userInform'>
-				<a href='#'><li>故事<i class="fa fa-pencil"></i></li></a>
-				<a href="#"><li>同样<i class="fa fa-star"></i></li></a>
-				</empty>
-				
-				<a href="#"><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
-				<a href="#"><li>音讯<i class="fa fa-send-o"></i></li></a>
 			</ul>
 		</div>	
 		<div class="left">
@@ -149,5 +144,50 @@
 			  </ul>
 			</nav>
 		</div>
-		<include file='public/right' />
-		<include file='public/footer' />
+<div class="right">
+	<div class="user">
+
+		<!-- 数据库里id值为零时有问题，所以手动设1先 -->
+		<notempty name='userInform'>
+			<div class="userinformation">
+				<img src=__PUBLIC__/<{$userInform['imgurl']}>>
+				<h3><{$userInform['username']}></h3>
+
+			</div>
+			<a id='logout' href=<{:U('user/logout')}>>退出</a>
+		</notempty>
+		<empty name='userInform'>
+			<div class="btn-group btn-group-justified" role="group" aria-label="...">
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default" data-toggle="modal" data-target=".modal1">登陆</button>
+				</div>
+				<div class="btn-group" role="group">
+					<button type="button" class="btn btn-default" data-toggle="modal" data-target=".modal2">注册</button>
+				</div>
+			</div>
+		</empty>
+
+	</div>
+
+	<div class="search">
+		<form method="get" action="/solarstory/index.php/home/story/search">
+			<div class="input-group">
+
+				<input type="text" class="form-control" name="key" placeholder="搜索标签" aria-describedby="sizing-addon2">
+				<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+			</div>
+		</form>
+	</div>
+
+	<div class="tags">
+		<!--<h2>标签</h2>-->
+		<volist name='navtags' id='tag'>
+			<a href="<{:U('story/indextag',['tagid'=>$tag['id']])}>" class="btn btn-primary btn-xs" role="button">
+				<{$tag.name}> <span class="badge"><{$tag.hits}></span>
+			</a>
+			<br>
+		</volist>
+	</div>
+</div>
+
+<include file='public/footer' />

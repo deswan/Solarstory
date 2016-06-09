@@ -33,18 +33,18 @@ class UserController extends Controller{
 		//空表单排除
 		if(!IS_POST||!I('post.username','')||!I('post.password','')||!I('post.verify')) return;
 
-		$username = I('username/s');
-		$password = I('password/s');
+		$username = I('post.username/s');
+		$password = I('post.password/s');
+
 		$code = I('post.verify/s');
-		dump(session());
-		if(!$this->check_verify($code)) $this->error('s');
+		if(!$this->check_verify($code)) $this->error('验证码有误');
 		$MUser = D('User');
 		$vali_result = $MUser->valiLogin($username,$password);
 		switch ($vali_result) {
 			case 0:$this->error('用户名不存在');break;
-			case 1:$this->error('密码不正确');break;
-			default:$this->success('登陆成功');
-				session('userid',"$vali_result");
+			case -1:$this->error('密码不正确');break;
+			default:session('userid',"$vali_result");
+				$this->redirect('story/index');
 				break;
 		}
 	}
@@ -81,9 +81,19 @@ class UserController extends Controller{
 	public function ajaxCheckVerify(){
 		$code = I('get.code');
 		if(!isset($code)) return;
-		$verify = new \Think\Verify();
+		$verify = new \Think\Verify(['reset'=>false]);
 		$res = $verify->check($code);
 		$this->ajaxReturn($res);
+	}
+	public function  ajaxCheckLogin(){
+		$username = I('post.username/s');
+		$password = I('post.password/s');
+		if(!isset($username,$password)){return;};
+		if(D('user')->valiLogin($username,$password)){
+			$this->ajaxReturn(1);
+		}else{
+			$this->ajaxReturn(0);
+		}
 	}
 }
 ?>
