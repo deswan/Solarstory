@@ -1,0 +1,3184 @@
+[ 2016-06-09T11:28:18+08:00 ] ::1 /solarstory/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-06-09T11:28:23+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-06-09T11:28:23+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-06-09T12:17:55+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-06-09T12:17:55+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2016-06-09T12:40:13+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+
+[ 2016-06-09T12:40:13+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-06-09T12:40:22+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-06-09T12:40:22+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-06-09T12:41:49+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-06-09T12:41:49+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-06-09T12:42:16+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002407s ]
+
+[ 2016-06-09T12:42:16+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+
+[ 2016-06-09T12:42:33+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-06-09T12:42:33+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-06-09T12:44:57+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-06-09T12:44:57+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-06-09T12:45:10+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-06-09T12:45:10+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+
+[ 2016-06-09T12:45:19+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-06-09T12:45:19+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001529s ]
+
+[ 2016-06-09T12:45:39+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-06-09T12:45:39+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-06-09T12:45:50+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001580s ]
+
+[ 2016-06-09T12:45:50+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-06-09T12:46:20+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-06-09T12:46:20+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-06-09T12:46:27+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-06-09T12:46:27+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-06-09T12:47:59+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-06-09T12:47:59+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-06-09T12:48:32+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+
+[ 2016-06-09T12:48:32+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-06-09T12:50:12+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-06-09T12:50:12+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-06-09T12:50:24+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-06-09T12:50:24+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-06-09T12:51:58+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2016-06-09T12:51:58+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-06-09T12:52:09+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-06-09T12:52:09+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+
+[ 2016-06-09T12:58:13+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+
+[ 2016-06-09T12:58:13+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-06-09T13:00:27+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-06-09T13:00:27+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-06-09T13:02:09+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+
+[ 2016-06-09T13:02:09+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-06-09T13:02:50+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-06-09T13:02:50+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-06-09T13:22:24+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-06-09T13:22:24+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-06-09T13:22:53+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-06-09T13:22:53+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-06-09T13:23:27+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-06-09T13:23:27+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-06-09T13:24:01+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-06-09T13:24:01+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-06-09T13:24:05+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-06-09T13:24:05+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-06-09T13:24:14+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+
+[ 2016-06-09T13:24:14+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-06-09T13:24:17+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+
+[ 2016-06-09T13:24:17+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+
+[ 2016-06-09T13:24:21+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+
+[ 2016-06-09T13:24:21+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-06-09T13:25:00+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-06-09T13:25:00+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-06-09T13:25:07+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+
+[ 2016-06-09T13:25:07+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-06-09T13:25:12+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-06-09T13:25:12+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-06-09T13:25:51+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2016-06-09T13:25:51+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-06-09T13:25:57+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-06-09T13:25:57+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-06-09T13:26:31+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-06-09T13:26:31+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-06-09T13:26:41+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-06-09T13:26:41+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-06-09T13:26:47+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-06-09T13:26:47+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-06-09T13:28:04+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-06-09T13:28:04+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+
+[ 2016-06-09T13:28:10+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-06-09T13:28:10+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-06-09T13:28:36+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+
+[ 2016-06-09T13:28:36+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-06-09T13:28:49+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-06-09T13:28:49+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-06-09T13:28:55+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-06-09T13:28:55+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-06-09T13:29:00+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-06-09T13:29:00+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-06-09T13:29:14+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-06-09T13:29:14+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-06-09T13:29:22+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-06-09T13:29:22+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-06-09T13:30:21+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-06-09T13:30:21+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2016-06-09T13:31:07+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-06-09T13:31:07+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-06-09T13:31:10+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-06-09T13:31:10+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-06-09T13:31:22+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-06-09T13:31:22+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-06-09T13:31:41+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-06-09T13:31:42+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-06-09T13:31:52+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-06-09T13:31:52+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-06-09T13:38:00+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+
+[ 2016-06-09T13:38:00+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-06-09T13:38:11+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-06-09T13:38:11+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-06-09T13:38:38+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+
+[ 2016-06-09T13:38:38+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-06-09T13:39:19+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+
+[ 2016-06-09T13:39:19+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-06-09T13:39:38+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001126s ]
+
+[ 2016-06-09T13:39:38+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2016-06-09T13:40:38+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-06-09T13:40:38+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-06-09T13:40:47+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-06-09T13:40:47+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-06-09T13:40:51+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+
+[ 2016-06-09T13:40:51+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-06-09T13:40:55+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+
+[ 2016-06-09T13:40:55+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+
+[ 2016-06-09T13:40:59+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+
+[ 2016-06-09T13:40:59+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-06-09T13:41:04+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-06-09T13:41:05+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-06-09T13:41:26+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+
+[ 2016-06-09T13:41:26+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-06-09T13:41:32+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-06-09T13:41:32+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-06-09T13:41:39+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+
+[ 2016-06-09T13:41:39+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-06-09T13:41:43+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-06-09T13:41:43+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-06-09T13:41:53+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-06-09T13:41:53+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-06-09T13:42:00+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-06-09T13:42:00+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+
+[ 2016-06-09T13:42:06+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+
+[ 2016-06-09T13:42:06+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+
+[ 2016-06-09T13:42:12+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-06-09T13:42:12+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-06-09T13:42:15+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+
+[ 2016-06-09T13:42:15+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-06-09T13:42:20+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+
+[ 2016-06-09T13:42:20+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-06-09T13:42:23+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2016-06-09T13:42:23+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-06-09T13:42:39+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+
+[ 2016-06-09T13:42:39+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-06-09T13:42:46+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-06-09T13:42:46+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+
+[ 2016-06-09T13:42:58+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-06-09T13:42:58+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-06-09T13:43:06+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-06-09T13:43:06+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-06-09T13:43:31+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-06-09T13:43:31+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-06-09T13:43:44+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+
+[ 2016-06-09T13:43:44+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-06-09T13:43:55+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-06-09T13:43:55+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-06-09T13:52:00+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-06-09T13:52:00+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-06-09T13:52:20+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-06-09T13:52:20+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-06-09T13:54:01+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+
+[ 2016-06-09T13:54:01+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-06-09T13:54:09+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-06-09T13:54:09+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-06-09T13:54:29+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-06-09T13:54:29+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-06-09T13:55:03+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-06-09T13:55:03+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2016-06-09T13:55:27+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-06-09T13:55:27+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-06-09T13:56:01+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-06-09T13:56:01+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+
+[ 2016-06-09T13:56:34+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-06-09T13:56:34+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-06-09T13:56:57+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+
+[ 2016-06-09T13:56:57+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+
+[ 2016-06-09T13:58:26+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-06-09T13:58:26+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-06-09T13:59:25+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+
+[ 2016-06-09T13:59:25+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001582s ]
+
+[ 2016-06-09T13:59:31+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-06-09T13:59:31+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-06-09T14:00:00+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-06-09T14:00:00+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-06-09T14:00:14+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-06-09T14:00:14+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-06-09T14:00:24+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+
+[ 2016-06-09T14:00:25+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+
+[ 2016-06-09T14:00:41+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-06-09T14:00:41+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-06-09T14:00:48+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-06-09T14:00:48+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-06-09T14:00:55+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001616s ]
+
+[ 2016-06-09T14:00:55+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-06-09T14:00:59+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-06-09T14:00:59+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-06-09T14:01:07+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-06-09T14:01:07+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-06-09T14:01:19+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-06-09T14:01:19+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-06-09T14:01:35+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+
+[ 2016-06-09T14:01:35+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-06-09T14:01:46+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-06-09T14:01:46+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-06-09T14:01:50+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2016-06-09T14:01:50+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-06-09T14:01:55+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-06-09T14:01:55+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-06-09T14:02:08+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-06-09T14:02:08+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2016-06-09T14:02:58+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-06-09T14:02:58+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2016-06-09T14:03:02+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2016-06-09T14:03:02+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+
+[ 2016-06-09T14:03:07+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-06-09T14:03:07+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-06-09T14:03:48+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-06-09T14:03:48+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+
+[ 2016-06-09T14:04:05+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-06-09T14:04:05+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-06-09T14:04:17+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-06-09T14:04:17+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-06-09T14:04:23+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-06-09T14:04:24+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-06-09T14:04:35+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-06-09T14:04:35+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-06-09T14:04:44+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-06-09T14:04:44+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2016-06-09T14:04:56+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-06-09T14:04:56+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2016-06-09T14:05:00+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+
+[ 2016-06-09T14:05:00+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-06-09T14:05:10+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+
+[ 2016-06-09T14:05:10+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2016-06-09T14:05:21+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-06-09T14:05:22+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+
+[ 2016-06-09T14:05:27+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-06-09T14:05:27+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+
+[ 2016-06-09T14:05:53+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+
+[ 2016-06-09T14:05:53+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-06-09T14:06:09+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-06-09T14:06:09+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-06-09T14:06:15+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+
+[ 2016-06-09T14:06:15+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-06-09T14:06:23+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-06-09T14:06:23+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-06-09T14:07:03+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2016-06-09T14:07:03+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+
+[ 2016-06-09T14:16:48+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-06-09T14:16:48+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002180s ]
+
+[ 2016-06-09T14:16:57+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-06-09T14:16:58+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2016-06-09T14:16:59+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-06-09T14:17:01+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sda' LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2016-06-09T14:17:28+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=deswang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'deswang' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-06-09T14:17:31+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=deswan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'deswan' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-09T14:17:33+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=deswa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'deswa' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:18:29+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-06-09T14:18:29+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-06-09T14:30:19+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-06-09T14:30:19+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+
+[ 2016-06-09T14:30:35+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'ss' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:30:49+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-06-09T14:30:49+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-06-09T14:30:53+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'ss' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:30:56+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name===
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = '==' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:31:01+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=_
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = '_' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T14:31:05+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=_sd12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `username` = '_sd12' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:31:42+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=(
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `username` = '(' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-06-09T14:33:24+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%E5%AE%BF%E8%88%8D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `username` = '宿舍' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:35:52+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-06-09T14:35:52+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-06-09T14:35:55+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'ss' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-06-09T14:36:21+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+
+[ 2016-06-09T14:36:21+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-06-09T14:36:25+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = '是' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:36:38+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-06-09T14:36:38+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-06-09T14:36:41+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%E5%AE%BF%E8%88%8D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = '宿舍' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-09T14:36:43+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'ss' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:36:47+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=()
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = '()' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:37:00+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-06-09T14:37:00+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-06-09T14:37:03+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'ss' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:37:06+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=()
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = '()' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T14:37:09+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=_
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `username` = '_' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-06-09T14:37:12+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%E7%9A%84%E5%95%8A
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `username` = '的啊' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-09T14:37:16+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%EF%BC%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = '！' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-06-09T14:37:18+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%C2%B7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `username` = '·' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:37:22+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%E3%80%81%E3%80%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = '、、' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:37:24+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%E3%80%81%E3%80%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = '、、' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-06-09T14:40:15+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-06-09T14:40:15+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-06-09T14:40:19+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%E8%90%A8%E9%A1%B6%E9%A1%B6%E6%92%92%E4%B8%8A
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `username` = '萨顶顶撒上' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T14:41:28+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2016-06-09T14:42:21+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-06-09T14:42:21+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-06-09T14:42:30+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sdadsdas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sdadsdas' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-09T14:42:34+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `username` = 's' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-09T14:42:36+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2016-06-09T14:42:39+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%E6%98%AF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = '是' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-09T14:42:43+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%E6%98%AF%E7%88%B1%E8%B0%81%E8%B0%81%E7%9A%84%E5%A4%A7%E4%B8%89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `username` = '是爱谁谁的大三' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-09T14:51:36+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%E5%95%8A%E9%A3%92%E9%A3%92%E7%9A%84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `username` = '啊飒飒的' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-09T14:51:43+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-06-09T14:51:43+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-06-09T14:51:46+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=%E7%9B%9B%E5%A4%A7%E7%9A%84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `username` = '盛大的' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-09T15:03:04+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-06-09T15:03:04+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2016-06-09T15:03:06+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sdads
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sdads' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:03:09+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=dasdasdasdasd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'dasdasdasdasd' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-09T15:05:41+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-06-09T15:05:41+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-06-09T15:05:44+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=dadsadsasdas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'dadsadsasdas' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:08:13+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+
+[ 2016-06-09T15:08:13+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-06-09T15:08:23+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sdadasdasdasas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sdadasdasdasas' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:08:26+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sdadasdasdasas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sdadasdasdasas' LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2016-06-09T15:09:13+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+
+[ 2016-06-09T15:09:13+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-06-09T15:09:35+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-06-09T15:09:35+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-06-09T15:11:24+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+
+[ 2016-06-09T15:11:24+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-06-09T15:11:40+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+
+[ 2016-06-09T15:11:40+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-06-09T15:11:50+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-06-09T15:11:51+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-06-09T15:12:03+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=dsa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'dsa' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:12:23+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-06-09T15:12:23+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+
+[ 2016-06-09T15:12:39+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+
+[ 2016-06-09T15:12:39+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-06-09T15:12:44+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-06-09T15:12:44+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-06-09T15:12:48+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+
+[ 2016-06-09T15:12:48+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-06-09T15:12:52+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+
+[ 2016-06-09T15:12:52+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-06-09T15:12:59+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-06-09T15:12:59+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-06-09T15:13:06+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sdasdasdas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sdasdasdas' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:13:07+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sdasdasdasdsasd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sdasdasdasdsasd' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:15:13+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-06-09T15:15:13+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-06-09T15:15:16+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sadasdasdasdasd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sadasdasdasdasd' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:15:20+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+
+[ 2016-06-09T15:15:20+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-06-09T15:15:22+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 's' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:15:34+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-06-09T15:15:34+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-06-09T15:15:36+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 's' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:15:42+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `username` = 's' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:15:56+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-06-09T15:15:56+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-06-09T15:15:58+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sa' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:15:59+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sa' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:16:35+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=deswang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'deswang' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:17:12+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-06-09T15:17:12+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-06-09T15:17:15+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 's' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:17:17+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sdsas
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sdsas' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:17:46+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-06-09T15:17:46+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-06-09T15:17:49+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=dsa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'dsa' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:17:52+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 's' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:17:55+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sasasdasdasd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sasasdasdasd' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:17:56+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sasasdasdasdsdasad
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sasasdasdasdsdasad' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:17:59+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sa(
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sa(' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:18:07+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 's' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:18:20+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-06-09T15:18:20+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-06-09T15:18:22+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sda' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:18:25+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sd()
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sd()' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:18:27+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sd()asddasdasdasd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sd()asddasdasdasd' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:18:52+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+
+[ 2016-06-09T15:18:52+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-06-09T15:18:56+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=asd()
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'asd()' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:18:59+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+
+[ 2016-06-09T15:18:59+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-06-09T15:19:01+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 's' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:19:04+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-06-09T15:19:04+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+
+[ 2016-06-09T15:19:06+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 's' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:19:40+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=deswan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'deswan' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:19:46+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=desw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'desw' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:20:23+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=desw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'desw' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:20:25+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=desw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'desw' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:20:29+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=desws
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'desws' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:21:28+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-06-09T15:21:29+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-06-09T15:21:31+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 's' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:21:32+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=sdasdsa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'sdasdsa' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:21:42+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=deswan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'deswan' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:26:19+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-06-09T15:26:19+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-06-09T15:26:23+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=deswan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'deswan' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-09T15:26:37+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=deswans
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'deswans' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-06-09T15:35:19+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-06-09T15:35:19+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+
+[ 2016-06-09T15:35:23+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-06-09T15:35:38+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=sss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2016-06-09T15:36:26+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+
+[ 2016-06-09T15:36:26+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2016-06-09T15:36:29+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-06-09T15:36:34+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-06-09T15:36:35+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-06-09T15:36:35+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-06-09T15:37:42+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-06-09T15:37:42+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-06-09T15:37:46+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=sdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-06-09T15:38:03+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+
+[ 2016-06-09T15:38:03+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-06-09T15:38:06+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-06-09T15:38:48+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-06-09T15:38:48+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-06-09T15:38:51+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-06-09T15:39:07+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=1608
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+
+[ 2016-06-09T15:41:11+08:00 ] ::1 /solarstory/index.php/home/user/ajaxifUsernameExist?name=desw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `username` = 'desw' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-09T15:41:17+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=1608
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-06-09T15:41:20+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=1608
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-06-09T15:42:05+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=1608
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-06-09T15:42:08+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=1608
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-06-09T15:42:31+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-06-09T15:42:31+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-06-09T15:42:35+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-06-09T15:42:39+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=9928
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-06-09T15:42:47+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=9928s
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-06-09T15:42:50+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=9928
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-06-09T15:42:51+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=9928
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-06-09T15:42:53+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=9928
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-06-09T15:42:58+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=9928
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-06-09T15:43:03+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=9928
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-06-09T15:44:07+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-06-09T15:44:07+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-06-09T15:44:11+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=ss
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-06-09T15:44:15+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=0313
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+
+[ 2016-06-09T15:44:19+08:00 ] ::1 /solarstory/index.php/home/user/ajaxCheckVerify?code=0313
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-06-09T15:51:28+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-06-09T15:51:28+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-06-09T15:51:55+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-06-09T15:51:55+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+
+[ 2016-06-09T15:52:04+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-06-09T15:52:04+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-06-09T15:52:05+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+
+[ 2016-06-09T15:52:07+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+
+[ 2016-06-09T15:52:11+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+
+[ 2016-06-09T15:52:14+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+
+[ 2016-06-09T15:52:17+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2016-06-09T15:53:45+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-06-09T15:53:45+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+
+[ 2016-06-09T15:53:45+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+
+[ 2016-06-09T15:55:28+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-06-09T15:55:28+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-06-09T15:55:28+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+
+[ 2016-06-09T15:55:47+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-06-09T15:55:47+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+
+[ 2016-06-09T15:55:48+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+
+[ 2016-06-09T15:55:56+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-06-09T15:56:47+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2016-06-09T15:56:47+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-06-09T15:56:48+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+
+[ 2016-06-09T15:57:17+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-06-09T15:57:36+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+
+[ 2016-06-09T15:57:39+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-06-09T15:58:04+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+
+[ 2016-06-09T15:58:04+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-06-09T15:58:05+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2016-06-09T15:58:11+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-06-09T15:58:11+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-06-09T15:58:11+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+
+[ 2016-06-09T15:58:30+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-06-09T15:58:30+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-06-09T15:58:30+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+
+[ 2016-06-09T15:58:33+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-06-09T15:58:36+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2016-06-09T15:58:41+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+
+[ 2016-06-09T15:58:43+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-06-09T15:58:44+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2016-06-09T15:58:47+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-06-09T15:58:49+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2016-06-09T15:58:52+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-06-09T15:58:54+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-06-09T15:58:54+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-06-09T15:58:55+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-06-09T15:58:57+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+
+[ 2016-06-09T15:58:59+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001668s ]
+
+[ 2016-06-09T15:59:08+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+
+[ 2016-06-09T15:59:15+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-06-09T15:59:15+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+
+[ 2016-06-09T15:59:16+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-06-09T15:59:18+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-06-09T15:59:21+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+
+[ 2016-06-09T15:59:24+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-06-09T15:59:54+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+
+[ 2016-06-09T15:59:55+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-06-09T15:59:55+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+
+[ 2016-06-09T15:59:59+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+
+[ 2016-06-09T16:00:01+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-06-09T16:00:05+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-06-09T16:00:08+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+
+[ 2016-06-09T16:00:14+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+
+[ 2016-06-09T16:01:11+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-06-09T16:01:14+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2016-06-09T16:01:44+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+
+[ 2016-06-09T16:01:44+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-06-09T16:01:47+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-06-09T16:01:49+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
+[ 2016-06-09T16:01:57+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+
+[ 2016-06-09T16:02:36+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-06-09T16:02:36+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-06-09T16:02:38+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-06-09T16:02:40+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+
+[ 2016-06-09T16:02:52+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+
+[ 2016-06-09T16:02:58+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+
+[ 2016-06-09T16:03:03+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-06-09T16:03:06+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-06-09T16:03:06+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-06-09T16:03:07+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+
+[ 2016-06-09T16:06:56+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+
+[ 2016-06-09T16:07:01+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+
+[ 2016-06-09T16:07:03+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+
+[ 2016-06-09T16:07:08+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-06-09T16:08:15+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+
+[ 2016-06-09T16:08:15+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-06-09T16:08:18+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-06-09T16:08:21+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-06-09T16:08:23+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-06-09T16:15:38+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+
+[ 2016-06-09T16:15:38+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-06-09T16:15:50+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+

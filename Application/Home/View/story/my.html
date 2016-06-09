@@ -1,0 +1,82 @@
+<include file='public/header' />
+<div class='leftnav'>
+    <ul>
+        <a href=<{:U('story/index')}>><li>首页<i class="glyphicon glyphicon-home"></i></li></a>
+        <notempty name='userInform'>
+            <a href=<{:U('story/homestory',['uid'=>$userInform['id']])}>><li>故事<i class="fa fa-pencil"></i></li></a>
+            <a href=<{:U('story/likeBeStory',['uid'=>$userInform['id']])}>><li>新的关注<i class="fa fa-star"></i></li></a>
+            <a href=<{:U('story/commentout')}>><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
+            <a href=<{:U('story/my')}> class='active'><li>个人资料<i></i></li></a>
+        </notempty>
+        <empty name='userInform'>
+            <a href='#'><li>故事<i class="fa fa-pencil"></i></li></a>
+            <a href="#"><li>新的关注<i class="fa fa-star"></i></li></a>
+            <a href="#"><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
+            <a href=#><li>个人资料<i></i></li></a>
+        </empty>
+
+    </ul>
+</div>
+<div class="left">
+    <div class="panel panel-default editpicture">
+        <div class="panel-heading">
+            <h3 class="panel-title">编辑头像</h3>
+        </div>
+        <div class="panel-body">
+            <img src=__PUBLIC__/<{$imgurl}> class="picture">
+            <div class="detail">
+                <button type="button" id="pictureUpload" class="btn btn-primary btn-lg">上传头像</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<include file='public/right' />
+<include file='public/footer' />
+<script src="__PUBLIC__/js/plupload/plupload.full.min.js"></script>
+<script>
+    //实例化一个plupload上传对象
+    var uploader = new plupload.Uploader({
+        browse_button : 'pictureUpload', //触发文件选择对话框的按钮，为那个元素id
+        url : '/solarstory/index.php/home/story/pictureUpload', //服务器端的上传页面地址
+        filters: {
+            mime_types : [ //只允许上传图片和zip文件
+                { title : "Image files", extensions : "jpg,gif,png,jpeg" },
+            ],
+            max_file_size : '2048kb',
+            prevent_duplicates : true //不允许选取重复文件
+        },
+        multi_selection:false,
+        file_data_name:'picture'
+    });
+
+    //在实例对象上调用init()方法进行初始化
+    uploader.init();
+
+    //绑定各种事件，并在事件监听函数中做你想做的事
+    uploader.bind('FilesAdded',function(uploader,files){
+        uploader.start();
+        $progress_bar = $('<div class="progress"> <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"> </div></div>');
+        $('.editpicture').find('.detail').append($progress_bar);
+    });
+    uploader.bind('UploadProgress',function(uploader,file){
+        console.log(file.percent);
+        $progress_bar = $('.progress-bar');
+        $progress_bar.css('width',file.percent+'%');
+    });
+    uploader.bind('UploadComplete',function(uploader,file){
+//        console.log('file.percent');
+        $('.progress-bar').remove();
+        history.go(0);
+    });
+    uploader.bind('Error',function(uploader,err){
+        console.log('err!!');
+    });
+    //......
+    //......
+
+    //最后给"开始上传"按钮注册事件
+    //调用实例对象的start()方法开始上传文件，当然你也可以在其他地方调用该方法
+
+</script>

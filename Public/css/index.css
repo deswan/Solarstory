@@ -1,0 +1,313 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif "微软雅黑","黑体";
+}
+a:link{
+	color: black
+}
+body{
+	background-color: rgb(245, 245, 245);
+}
+#canvas{
+	display: block;
+	position: absolute;
+	margin: 0px auto;
+	z-index: -1;
+}
+.container{
+	position: relative;
+	width: 1200px;
+	margin: 0px auto;
+}
+header{
+	color: aliceblue;
+	background-color: #313131;
+	box-shadow: 0px 0px 10px 0px black;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	font-size: 1.2rem;
+	z-index: 1000;
+}
+header ul{
+	margin-left: 25%;
+}
+header ul li{
+	float: left;
+	width: 13%;
+	text-align: center;
+}
+header ul a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 60px;
+}
+header ul a:link{
+	color: aliceblue;
+}
+header ul a:hover{
+/*	background-color: gray;*/
+/*	color: whitesmoke;*/
+	box-shadow: 0px 2px 0px red; 
+}
+.top{
+	width: 100%;
+	height: 60px;
+}
+.banner{
+	clear: both;
+	width: 100%;
+	height: 500px;
+	opacity: 0.9;
+}
+.banner .pointcontainer{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 10%;
+}
+.banner .flexslider{
+	float: left;
+	width: 79%;
+	height: 550px;
+}
+.banner .flexslider img{
+	width: 100%;
+	height: 550px;
+}
+.calendarContainer{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	width: 60%;
+	height: 70%;
+	background-color:rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 15px 0px black;
+}
+.calendarHead{
+	color: ghostwhite;
+/*	padding-top:6%;*/
+	text-align: center;
+	line-height: 120px;
+	font-size: 40px;
+	width:15%;
+	background-color: darkcyan;
+	height: 100%;
+	float: left;
+}
+.calendarHead p{
+	padding-top: 40%;
+/*	padding-bottom: 40%;*/
+	padding-left: 20%;
+	padding-right: 20%;
+	width: 60%;
+	height: 60%;
+}
+.calendarHead1{
+	color: ghostwhite;
+/*	padding-top:6%;*/
+	text-align: center;
+	line-height: 90px;
+	font-size: 40px;
+	width:15%;
+	background-color: darkcyan;
+	height: 100%;
+	float: left;
+}
+
+
+.calendarHead1 p{
+	padding-top: 40%;
+/*	padding-bottom: 40%;*/
+	padding-left: 20%;
+	padding-right: 20%;
+	width: 60%;
+	height: 60%;
+}
+.week{
+	line-height: 20px;
+	text-align: center;
+	border-collapse: collapse;
+	font-size: 17px;
+	height:5%;
+	color: ghostwhite;
+}
+.week td{
+/*	border: solid 1px gray;*/
+	display: inline-block;
+	width: 48.9px;
+	height:20px;
+	padding: 10px;
+}
+.calendar{
+	line-height: 37.5px;
+	text-align: center;
+	border-collapse: collapse;
+	font-size: 17px;
+	color: ghostwhite;
+}
+.calendar td{
+/*	border: solid 1px gray;*/
+	display: inline-block;
+	width: 48.9px;
+	height:37.5px;
+	padding: 10px;
+}
+.calendar td.solar{
+/*	border: solid 1px gray;*/
+/*	background-color: darkcyan;*/
+	color: orange;
+/*	box-shadow: inset 0 0 20px 0 black;*/
+}
+.calendar td.unvisible{
+/*	background-color: rgba(200,200,200,0.7);*/
+	opacity: 0.2;
+/*	border-color: rgba(0,0,0,0.1);*/
+}
+.calendar td:not(.unvisible):hover{
+	background-color: coral;
+	color: ghostwhite;
+}
+
+.news_head_container{
+	clear: both;
+	position:relative;
+	height:60px;
+	width:100%;
+}
+.news_head_container .news_head{
+	z-index: 999;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	width: 20%;
+	height: 200px;
+	background-color: saddlebrown;
+	opacity: 0.8;
+}
+.news_head_container .news_head p{
+	font-size: 15px;
+	color: rgba(200,200,200,0.5);
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.news_head_container  .news_head:nth-child(1){
+	top:0px;
+	left: 0%;
+	background-image: url(../image/new1_head.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.news_head_container .news_head:nth-child(2){
+	top:0px;
+	left: 20%;
+	background-image: url(../image/new2_head.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.news_head_container .news_head:nth-child(3){
+	top:0px;
+	left: 40%;
+	background-image: url(../image/new3_head.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.news_head_container .news_head:nth-child(4){
+	top:0px;
+	left: 60%;
+}
+.news_head_container .news_head:nth-child(5){
+	top:0px;
+	left: 80%;
+}
+.news_head_container .news_head div{
+	z-index: 9998;
+	padding: 10px;
+	color: whitesmoke;
+	position: absolute;
+	bottom: 0px;
+	height: 60px;
+	background-color: rgb(0,0,0);
+}
+.news_main{
+	width:90%;
+	min-height:400px;
+	background-color:rgba(242, 242, 225,0.7);
+	padding: 5%;
+	padding-top: 180px;
+}
+.news_main h2{
+	font-size: 30px;
+}
+.news_main .intro{
+	color:#797575;
+	margin-top: 20px;
+}
+.news_main .mainarticle{
+	margin-top: 20px;
+	line-height: 25px;
+}
+.terms{
+	margin:0px auto;
+	margin-left:auto;
+	margin-right:auto;
+	clear: both;
+	width:83%;
+	height: 900px;
+	background-color:#CF6;
+	
+	}
+.terms_up{
+	position:absolute;
+	height:100px;
+	
+	float:left;
+	width:83%;
+	clear:both;
+	background-color:#CF9;
+	}
+.terms_down{
+	position:absolute;
+	width:83%;
+	float:left;
+	height:800px;
+	margin-top:100px;
+	clear:both;
+	background-color:#CF6;
+	}
+
+.constellation{
+	margin:0px auto;
+	margin-left:auto;
+	margin-right:auto;
+	clear: both;
+	width:83%;
+	height: 600px;
+	background-color:#CF6;
+	
+	}
+.constellation_up{
+	position:absolute;
+	height:100px;
+	
+	float:left;
+	width:83%;
+	clear:both;
+	background-color:#C3F;
+	}
+.constellation_down{
+	position:absolute;
+	width:83%;
+	float:left;
+	height:500px;
+	margin-top:100px;
+	clear:both;
+	background-color:#F00;
+	}
+a{
+	text-decoration: none;
+}

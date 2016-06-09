@@ -1,0 +1,80 @@
+<include file='public/header' />
+<div class='leftnav'>
+	<ul>
+		<a href=<{:U('story/index')}>><li>首页<i class="glyphicon glyphicon-home"></i></li></a>
+		<notempty name='userInform'>
+			<a href=<{:U('story/homestory',['uid'=>$userInform['id']])}>><li>故事<i class="fa fa-pencil"></i></li></a>
+			<a href=<{:U('story/likeBeStory',['uid'=>$userInform['id']])}> class='active'><li>新的关注<i class="fa fa-star"></i></li></a>
+			<a href=<{:U('story/commentout')}>><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
+		</notempty>
+		<empty name='userInform'>
+			<a href='#'><li>故事<i class="fa fa-pencil"></i></li></a>
+			<a href="#"><li>新的关注<i class="fa fa-star"></i></li></a>
+			<a href="#"><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
+		</empty>
+
+	</ul>
+</div>
+		<div class="left" style="padding-left: 20px">
+			<if condition='$articles eq 0'>
+				<div class="articleEmpty">您还没有被关注过</div>
+			</if>
+			<volist name='articles' id='user'>
+				<div class=mycomment>
+					<div class="left"><img src=__PUBLIC__/<{$user.imgurl}>></div>
+					<div class="right">
+						<p class=commenttext>用户 <a href=<{:U('story/homestory',['uid'=>$user['id']])}>><{$user.username}></a> 关注了你的故事
+							<empty name="$user['hasRead']">
+								<span class="label label-warning">New</span>
+							</empty>
+						</p>
+
+						<p class=time><{$user.time||dateConvert='date',###}></p>
+						<p class=totext>"<{$user.text}>"</p>
+					</div>
+					<div class='clean'></div>
+				</div>
+			</volist>
+			<nav style="text-align: center">
+			  <ul class="pagination">
+				  <php>if($currentpage>1){</php>
+				  <li>
+					  <a href=<{:U('story/index',['page'=>$currentpage-1])}> aria-label="Previous">
+						  <span aria-hidden="true">&laquo;</span>
+					  </a>
+				  </li>
+				  <php>}</php>
+				  <php>
+					  for($i=$currentpage-4;$i<$currentpage+4;$i++){
+					  if($i>0&&$i<$articlepage+1){
+				  </php>
+
+				  <li
+				  <php>
+					  if($i==$currentpage){
+				  </php>
+				  class=active
+				  <php>
+					  }
+				  </php>
+				  >
+				  <a href=
+							 <php>echo "http://localhost/solarstory/index.php/Home/story/index/page/".$i</php>
+					  >
+					  <php>echo $i</php>
+				  </a>
+				  </li>
+
+				  <php>}}</php>
+				  <php>if($currentpage<$articlepage){</php>
+				  <li>
+					  <a href=<{:U('story/index',['page'=>$currentpage+1])}> aria-label="Next">
+						  <span aria-hidden="true">&raquo;</span>
+					  </a>
+				  </li>
+				  <php>}</php>
+			  </ul>
+			</nav>
+		</div>
+<include file='public/right' />
+<include file='public/footer' />

@@ -1,0 +1,73 @@
+[ 2016-06-04T23:00:24+08:00 ] ::1 /solarstory/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-06-04T23:00:27+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+WARN: sss
+[ 2016-06-04T23:00:27+08:00 ] ::1 /solarstory/index.php/Home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-06-04T23:00:27+08:00 ] ::1 /solarstory/index.php/home/story/ajaxLikeArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+ERR: 参数错误或者未定义:articleid
+
+[ 2016-06-04T23:00:27+08:00 ] ::1 /solarstory/index.php/home/story/ajaxLikeArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+ERR: 参数错误或者未定义:articleid
+
+[ 2016-06-04T23:00:42+08:00 ] ::1 /solarstory/index.php/home/story/index.html
+WARN: sss
+[ 2016-06-04T23:00:42+08:00 ] ::1 /solarstory/index.php/home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-06-04T23:00:42+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-06-04T23:00:43+08:00 ] ::1 /solarstory/index.php/home/story/index.html
+WARN: sss
+[ 2016-06-04T23:00:43+08:00 ] ::1 /solarstory/index.php/home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-06-04T23:00:43+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-06-04T23:10:02+08:00 ] ::1 /solarstory/index.php/home/story/index.html
+WARN: sss
+[ 2016-06-04T23:10:02+08:00 ] ::1 /solarstory/index.php/home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+
+[ 2016-06-04T23:10:02+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-06-04T23:11:00+08:00 ] ::1 /solarstory/index.php/home/story/index.html
+WARN: sss
+[ 2016-06-04T23:11:00+08:00 ] ::1 /solarstory/index.php/home/story/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+
+[ 2016-06-04T23:11:00+08:00 ] ::1 /solarstory/index.php/Home/story/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+

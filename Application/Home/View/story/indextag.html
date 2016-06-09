@@ -1,0 +1,153 @@
+<include file='public/header' />
+		<div class='leftnav'>
+			<ul>
+				<a href=<{:U('story/index')}> class=active><li>首页<i class="glyphicon glyphicon-home"></i></li></a>
+				<notempty name='userInform'>
+				<a href=<{:U('story/homestory',['uid'=>$userInform['id']])}>><li>故事<i class="fa fa-pencil"></i></li></a>
+				<a href=<{:U('story/homelike',['uid'=>$userInform['id']])}>><li>关注度<i class="fa fa-star"></i></li></a>
+				</notempty>
+				<empty name='userInform'>
+				<a href='#'><li>故事<i class="fa fa-pencil"></i></li></a>
+				<a href="#"><li>同样<i class="fa fa-star"></i></li></a>
+				</empty>
+				
+				<a href="#"><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
+				<a href="#"><li>音讯<i class="fa fa-send-o"></i></li></a>
+			</ul>
+		</div>	
+		<div class="left">
+
+
+			<form action=<{:U('story/submitwrite')}> method="post" id='write'>
+				<textarea name=text placeholder="写下你的故事吧" draggable="false"></textarea>
+				
+				<div class='tag_container'>
+					<div class="input-group input-group-sm" >
+					  <span class="input-group-addon" id="sizing-addon1">标签</span>
+					  <input type="text" name=tags class="form-control" placeholder="添加标签（以空格分隔）" aria-describedby="sizing-addon1">
+					</div>
+					<!-- <span class="tag">标签</span> -->
+					<volist name='writetags' id='tag'>
+					
+					
+					<a class='tag_section' href="#" name=<{$tag.id}> father=<{$tag.fatherid|default='0'}>><{$tag.name}></a>
+
+					
+										</volist>
+				</div>
+				<input type="submit" 
+				<empty name='userInform'>
+				disabled
+				</empty>
+				
+				 value="发表">
+				<div class="clean"></div>
+			</form>
+			<if condition='$articles eq 0'>
+				<div class="articleEmpty">没有可显示的故事</div>
+			</if>
+			<volist name='articles' id='article'>
+				<article>
+					<php>
+					if(!isset($userInform)||(isset($userInform)&&$article['uid']!=$userInform['id'])){
+					</php>
+					<a id=<{$article.id}> class=articlehead
+					<notempty name='article.ulike'>
+					 like=true
+					</notempty>
+					<empty name='article.ulike'>
+					 like=false
+					</empty>
+					><img src="__PUBLIC__/image/leaf.png"></a>
+					<php>
+					}
+					</php>
+					<div class="imgcontainer">
+						<p class="month"><{$article.time|dateConvert="month",###}></p>
+						<p class="day"><{$article.time|dateConvert="day",###}></p>
+						<php>
+						if(isset($userInform)&&$article['uid']==$userInform['id']){
+
+						</php>
+						<a href="<{:U('story/delete',['id'=>$article['id']])}>">删除</a>
+						<php>
+						}
+						</php>
+					</div>
+					<div class="main">
+						<div class="tags">
+							<volist name="article['tags']" id="tag">				
+							<a href="#"><{$tag.name}></a>
+							</volist>
+						</div> 
+						<p class="date">发表于 <{$article.time|dateConvert='date',###}></p>
+						<article class="article"><{$article.text}></article>
+						<p class="article_user"><img src=__PUBLIC__/<{$article['imgurl']}>><a href=<{:U('story/homestory',['uid'=>$article['uid']])}>><{$article.username}></a></p>
+					</div>
+					<footer></footer>
+					<a href="#" class='showComment' id=<{$article.id}>>
+						<i class="glyphicon glyphicon-comment"></i><span>（<{$article.commentnum}>）</span>
+					</a>
+					<div class="comment">
+						<form action='' method="post">
+							<img src=__PUBLIC__/<{$article['imgurl']}>>
+							<input type='hidden' value=<{$article.id}> name='articleid'>
+							<input type="text" name=text>	
+							<input type="submit" value='评论'>
+						</form>	
+						<p class=commentEmpty style="display:none">暂无评论</p>
+						<div class="commentplaceholder"></div>
+						<div class="commentsection">
+						</div>
+						<nav style="text-align:center">
+						  <ul class="pagination pagination-sm">
+						    
+						  </ul>
+						</nav>
+						<div class="clean"></div>
+					</div>
+				</article>
+			</volist>
+			<nav style="text-align: center">
+			  <ul class="pagination">
+				  <php>if($currentpage>1){</php>
+				  <li>
+					  <a href=<{:U('story/indextag',['tagid'=>$tagid,'page'=>$currentpage+1])}> aria-label="Previous">
+						  <span aria-hidden="true">&laquo;</span>
+					  </a>
+				  </li>
+				  <php>}</php>
+				  <php>
+					  for($i=$currentpage-4;$i<$currentpage+4;$i++){
+					  if($i>0&&$i<$articlepage+1){
+				  </php>
+
+				  <li
+				  <php>
+					  if($i==$currentpage){
+				  </php>
+				  class=active
+				  <php>
+					  }
+				  </php>
+				  >
+				  <a href=
+							 <php>echo "http://localhost/solarstory/index.php/Home/story/index/page/".$i</php>
+					  >
+					  <php>echo $i</php>
+				  </a>
+				  </li>
+
+				  <php>}}</php>
+				  <php>if($currentpage<$articlepage){</php>
+				  <li>
+					  <a href=<{:U('story/indextag',['tagid'=>$tagid,'page'=>$currentpage+1])}> aria-label="Next">
+						  <span aria-hidden="true">&raquo;</span>
+					  </a>
+				  </li>
+				  <php>}</php>
+			  </ul>
+			</nav>
+		</div>
+		<include file='public/right' />
+		<include file='public/footer' />

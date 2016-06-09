@@ -1,0 +1,1057 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	
+	<import type='css' file='css.flexslider' />
+	<import type='css' file='css.index' />
+</head>
+<body>
+
+	<header>
+		<ul>
+			<li><a>日历</a></li>
+			<li><a>新闻</a></li>
+			<li><a>Logo</a></li>
+			<li><a>节 · 气</a></li>
+			<li><a href="#">黄道</a></li>
+			<li><a href=<{:U('story/index')}>>故事</a></li>
+		</ul>
+	</header>
+	<div class="top"></div>
+	
+	<div class="container">
+		<canvas id=canvas width=1200 height="1400"></canvas>
+	<div class="banner">
+		<div class='pointcontainer'></div>
+		
+			<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="/solarstory/public/static/image/month_1.jpg">
+				<div class="calendarContainer">
+					<div class="calendarHead"><p>一月</p></div>  
+                    <table class="week">
+                    	<tbody>
+                        <tr> 
+                        <td>周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td>周六</td>
+                       
+                        </tr>
+                        </tbody>
+                        </table> 
+                  
+					<table class="calendar">
+						<tbody>
+						<tr>
+							<td class="unvisible">27</td>
+							<td class="unvisible">28</td>
+							<td class="unvisible">29</td>
+							<td class="unvisible">30</td>
+							<td class="unvisible">31</td>
+							<td>1</td>
+							<td>2</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>4</td>
+							<td>5</td>
+							<td class="solar">小寒</td>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+						</tr>
+						<tr>
+							<td class="solar">大寒</td>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+						</tr>
+						
+						<tr>
+							<td>17</td>
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+						</tr>
+						<tr>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>
+						</tr>
+						<tr>
+							<td>31</td>
+							<td class="unvisible">1</td>
+							<td class="unvisible">2</td>
+							<td class="unvisible">3</td>
+							<td class="unvisible">4</td>
+							<td class="unvisible">5</td>
+							<td class="unvisible">6</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</li>
+			<li><img src="/solarstory/public/static/image/month_2.jpg">
+				<div class="calendarContainer">
+					<div class="calendarHead"><p>二月</p></div>
+                     <table class="week">
+                    	<tbody>
+                        <tr> 
+                        <td>周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td>周六</td>
+                       
+                        </tr>
+                        </tbody>
+                        </table> 
+					<table class="calendar">
+						<tr>
+							<td class="unvisible">31</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td class="solar">立春</td>
+							<td>5</td>
+							<td>6</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+						</tr>
+						<tr>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+							<td class="solar">雨水</td>
+							<td>20</td>
+						</tr>
+						<tr>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+						</tr>
+						<tr>
+							<td>28</td>
+							<td>29</td>
+							<td class="unvisible">1</td>
+							<td class="unvisible">2</td>
+							<td class="unvisible">3</td>
+							<td class="unvisible">4</td>
+							<td class="unvisible">5</td>
+						</tr>
+						<tr>
+							<td class="unvisible">6</td>
+							<td class="unvisible">7</td>
+							<td class="unvisible">8</td>
+							<td class="unvisible">9</td>
+							<td class="unvisible">10</td>
+							<td class="unvisible">11</td>
+							<td class="unvisible">12</td>
+						</tr>
+					</table>
+				</div>
+			</li>
+			<li><img src="/solarstory/public/static/image/month_3.jpg">
+				<div class="calendarContainer">
+					<div class="calendarHead"><p>三月</p></div>
+                     <table class="week">
+                    	<tbody>
+                        <tr> 
+                        <td>周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td>周六</td>
+                       
+                        </tr>
+                        </tbody>
+                        </table> 
+					<table class="calendar">
+						<tr>
+							<td class="unvisible">29</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+                            <td class="solar">惊蛰</td>
+							<td>6</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+						</tr>
+						<tr>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+							<td>18</td>
+                            <td>19</td>
+							<td class="solar">春分</td>
+							
+						</tr>
+						<tr>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+						</tr>
+						<tr>
+							<td>28</td>
+							<td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+							<td class="unvisible">1</td>
+							<td class="unvisible">2</td>
+							<td class="unvisible">3</td>
+							
+						</tr>
+						<tr>
+                            <td class="unvisible">4</td>
+							<td class="unvisible">5</td>
+							<td class="unvisible">6</td>
+							<td class="unvisible">7</td>
+							<td class="unvisible">8</td>
+							<td class="unvisible">9</td>
+							<td class="unvisible">10</td>
+						</tr>
+					</table>
+				</div>
+			</li>
+			<li><img src="/solarstory/public/static/image/month_4.jpg">
+            <div class="calendarContainer">
+					<div class="calendarHead"><p>四月</p></div>
+                     <table class="week">
+                    	<tbody>
+                        <tr> 
+                        <td>周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td>周六</td>
+                       
+                        </tr>
+                        </tbody>
+                        </table> 
+					<table class="calendar">
+						<tr>
+                        	<td class="unvisible">28</td>
+                            <td class="unvisible">29</td>
+                            <td class="unvisible">30</td>
+							<td class="unvisible">31</td>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>			
+						</tr>
+						<tr>
+                        	<td class="solar">清明</td>
+                        	<td>5</td>
+                            <td>6</td>
+							<td>7</td>
+							<td>8</td>
+							<td>9</td>
+							<td>10</td>
+							
+						</tr>
+						<tr>
+                        	<td>11</td>
+                        	<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>
+							<td>17</td>
+												
+						</tr>
+						<tr>
+                        	<td>18</td>
+							<td class="solar">谷雨</td>
+                            <td>20</td>
+							<td>21</td>
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+							
+						</tr>
+						<tr>
+                        	<td>25</td>
+                        	<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+                            <td>30</td> 
+							<td class="unvisible">1</td>
+							
+						</tr>
+						<tr>
+                        	<td class="unvisible">2</td>
+                            <td class="unvisible">3</td>
+                            <td class="unvisible">4</td>
+							<td class="unvisible">5</td>
+							<td class="unvisible">6</td>
+							<td class="unvisible">7</td>
+							<td class="unvisible">8</td>
+						</tr>
+					</table>
+				</div>
+            </li>
+			<li><img src="/solarstory/public/static/image/month_5.jpg">
+             <div class="calendarContainer">
+					<div class="calendarHead"><p>五月</p></div>
+                     <table class="week">
+                    	<tbody>
+                        <tr> 
+                        <td>周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td>周六</td>
+                       
+                        </tr>
+                        </tbody>
+                        </table> 
+					<table class="calendar">
+						<tr>
+                        	<td class="unvisible">25</td>
+                            <td class="unvisible">26</td>
+                            <td class="unvisible">27</td>
+							<td class="unvisible">28</td>
+                            <td class="unvisible">29</td>
+                            <td class="unvisible">30</td>
+							<td>1</td>
+									
+						</tr>
+						<tr>
+                        	<td>2</td>
+							<td>3</td>	
+                            <td>4</td>
+                        	<td class="solar">立夏</td>
+                            <td>6</td>
+							<td>7</td>
+							<td>8</td>
+
+						</tr>
+						<tr>
+                        	<td>9</td>
+							<td>10</td>
+                        	<td>11</td>
+                        	<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+							
+												
+						</tr>
+						<tr>
+                        	<td>16</td>
+							<td>17</td>
+                        	<td>18</td>
+                            <td>19</td>
+							<td class="solar">小满</td> 
+							<td>21</td>
+							<td>22</td>
+
+						</tr>
+						<tr>
+                        	<td>23</td>
+							<td>24</td>
+                        	<td>25</td>
+                        	<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+						</tr>
+						<tr>
+                        	<td>30</td> 
+                            <td>31</td> 
+							<td class="unvisible">1</td>
+                        	<td class="unvisible">2</td>
+                            <td class="unvisible">3</td>
+                            <td class="unvisible">4</td>
+							<td class="unvisible">5</td>
+						</tr>
+					</table>
+				</div>
+            </li>
+			<li><img src="/solarstory/public/static/image/month_6.jpg">
+             <div class="calendarContainer">
+					<div class="calendarHead"><p>六月</p></div>
+                     <table class="week">
+                    	<tbody>
+                        <tr> 
+                        <td>周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td>周六</td>
+                       
+                        </tr>
+                        </tbody>
+                        </table> 
+					<table class="calendar">
+						<tr>
+                        	<td class="unvisible">30</td>
+                            <td class="unvisible">31</td>
+							<td>1</td>
+                            <td>2</td>
+							<td>3</td>	
+                            <td>4</td>
+                        	<td class="solar">芒种</td>
+									
+						</tr>
+						<tr>
+                            <td>6</td>
+							<td>7</td>
+							<td>8</td>
+                            <td>9</td>
+							<td>10</td>
+                        	<td>11</td>
+                        	<td>12</td>
+						</tr>
+						<tr>
+                        	
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+                            <td>16</td>
+							<td>17</td>
+                        	<td>18</td>
+                            <td>19</td>			
+						</tr>
+						<tr>
+                        	<td>20</td>
+							<td class="solar">夏至</td> 							
+							<td>22</td>
+							<td>23</td>
+							<td>24</td>
+                        	<td>25</td>
+                        	<td>26</td>
+						</tr>
+						<tr>                        	
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+                            <td>30</td> 
+							<td class="unvisible">1</td>
+                        	<td class="unvisible">2</td>
+                            <td class="unvisible">3</td>
+						</tr>
+						<tr>
+                        	<td class="unvisible">4</td>
+							<td class="unvisible">5</td>
+							<td class="unvisible">6</td>
+							<td class="unvisible">7</td>
+							<td class="unvisible">8</td>
+							<td class="unvisible">9</td>
+							<td class="unvisible">10</td>
+						</tr>
+					</table>
+				</div>
+            </li>
+			<li><img src="/solarstory/public/static/image/month_7.jpg">
+            <div class="calendarContainer">
+					<div class="calendarHead"><p>七月</p></div>
+                     <table class="week">
+                    	<tbody>
+                        <tr> 
+                        <td>周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td>周六</td>
+                       
+                        </tr>
+                        </tbody>
+                        </table> 
+					<table class="calendar">
+						<tbody>
+						<tr>
+							<td class="unvisible">27</td>
+							<td class="unvisible">28</td>
+							<td class="unvisible">29</td>
+							<td class="unvisible">30</td>
+							<td>1</td>
+							<td>2</td>
+                            <td>3</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>5</td>
+                            <td>6</td>
+							<td class="solar">小暑</td>
+							<td>8</td>
+							<td>9</td>
+                            <td>10</td>
+						</tr>
+						<tr>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>
+							<td>16</td>	
+                            <td>17</td>
+						</tr>
+						
+						<tr>
+						
+							<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+							<td class="solar">大暑</td>
+							<td>23</td>
+                            <td>24</td>
+						</tr>
+						<tr>
+							
+							<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>
+                            <td>31</td>
+						</tr>
+						<tr>
+							
+							<td class="unvisible">1</td>
+							<td class="unvisible">2</td>
+							<td class="unvisible">3</td>
+							<td class="unvisible">4</td>
+							<td class="unvisible">5</td>
+							<td class="unvisible">6</td>
+                            <td class="unvisible">7</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+            </li>
+			<li><img src="/solarstory/public/static/image/month_8.jpg">
+             <div class="calendarContainer">
+					<div class="calendarHead"><p>八月</p></div>
+                     <table class="week">
+                    	<tbody>
+                        <tr> 
+                        <td>周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td>周六</td>
+                       
+                        </tr>
+                        </tbody>
+                        </table> 
+					<table class="calendar">
+						<tbody>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+							<td>5</td>  
+                            <td>6</td>
+							<td class="solar">立秋</td>
+						</tr>
+						<tr>							                         
+							<td>8</td>
+							<td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+						</tr>
+						<tr>
+							
+							<td>15</td>
+							<td>16</td>	
+                            <td>17</td>
+                            <td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>
+						</tr>
+						
+						<tr>						
+							<td>22</td>
+							<td class="solar">处暑</td>							
+                            <td>24</td>
+                            <td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+						</tr>
+						<tr>
+							<td>29</td>
+							<td>30</td>
+                            <td>31</td>
+                            <td class="unvisible">1</td>
+							<td class="unvisible">2</td>
+							<td class="unvisible">3</td>
+							<td class="unvisible">4</td>
+						</tr>
+						<tr>
+							<td class="unvisible">5</td>
+							<td class="unvisible">6</td>
+                            <td class="unvisible">7</td>
+                            <td class="unvisible">8</td>
+							<td class="unvisible">9</td>
+							<td class="unvisible">10</td>
+                            <td class="unvisible">11</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+            </li>
+			<li><img src="/solarstory/public/static/image/month_9.jpg">
+             <div class="calendarContainer">
+					<div class="calendarHead"><p>九月</p></div>
+                     <table class="week">
+                    	<tbody>
+                        <tr> 
+                        <td>周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td>周六</td>
+                       
+                        </tr>
+                        </tbody>
+                        </table> 
+					<table class="calendar">
+						<tbody>
+						<tr>
+                        	
+							<td class="unvisible">28</td>
+							<td class="unvisible">29</td>
+							<td class="unvisible">30</td>
+                            <td class="unvisible">31</td>
+							<td>1</td>
+							<td>2</td>
+                            <td>3</td>
+                            
+						</tr>
+						<tr>
+                        	<td>4</td>
+							<td>5</td>  
+                            <td>6</td>
+							<td class="solar">白露</td>							                         
+							<td>8</td>
+							<td>9</td>
+                            <td>10</td>
+                           
+						</tr>
+						<tr>
+							 <td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td class="solar">中秋</td>	
+							<td>16</td>	
+                            <td>17</td>
+                            
+						</tr>
+						
+						<tr>	
+                        	<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>					
+							<td>22</td>
+							<td>23</td>							
+                            <td>24</td>
+                            
+						</tr>
+						<tr>
+                        	<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>                          
+                            <td class="unvisible">1</td>
+							
+						</tr>
+						<tr>
+                        	<td class="unvisible">2</td>
+							<td class="unvisible">3</td>
+							<td class="unvisible">4</td>
+							<td class="unvisible">5</td>
+							<td class="unvisible">6</td>
+                            <td class="unvisible">7</td>
+                            <td class="unvisible">8</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+            </li>
+			<li><img src="/solarstory/public/static/image/month_10.jpg">
+              <div class="calendarContainer">
+					<div class="calendarHead"><p>十月</p></div>
+                     <table class="week">
+                    	<tbody>
+                        <tr> 
+                        <td>周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td>周六</td>
+                       
+                        </tr>
+                        </tbody>
+                        </table> 
+					<table class="calendar">
+						<tbody>
+						<tr>   
+                        	<td class="unvisible">25</td>
+							<td class="unvisible">26</td>
+							<td class="unvisible">27</td>                     	
+							<td class="unvisible">28</td>
+							<td class="unvisible">29</td>
+							<td class="unvisible">30</td>
+                          	<td>1</td>							
+                        </tr>
+						<tr>
+                        	<td>2</td>
+                            <td>3</td>
+                        	<td>4</td>
+							<td>5</td>  
+                            <td>6</td>
+                            <td>7</td>							
+                            <td class="solar">寒暑</td>	                            						
+						</tr>
+                        
+						<tr>
+                        	<td class="solar">重阳</td>							                         							
+                            <td>10</td>
+							<td>11</td>
+							<td>12</td>
+							<td>13</td>
+							<td>14</td>
+							<td>15</td>							                            
+						</tr>
+						
+						<tr>	
+                        	<td>16</td>	
+                            <td>17</td>
+                        	<td>18</td>
+							<td>19</td>
+							<td>20</td>
+							<td>21</td>					
+							<td>22</td>
+						</tr>
+						<tr>
+                        	<td>23</td>							
+                            <td>24</td>
+                        	<td>25</td>
+							<td>26</td>
+							<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							
+							
+						</tr>
+						<tr>
+                        	<td>30</td>
+                            <td>31</td>                          
+                            <td class="unvisible">1</td>
+                        	<td class="unvisible">2</td>
+							<td class="unvisible">3</td>
+							<td class="unvisible">4</td>
+							<td class="unvisible">5</td>					
+						</tr>
+						</tbody>
+					</table>
+				</div>
+            </li>
+			<li><img src="/solarstory/public/static/image/month_11.jpg">
+            <div class="calendarContainer">
+					<div class="calendarHead1"><p>十一月</p></div>
+                     <table class="week">
+                    	<tbody>
+                        <tr> 
+                        <td>周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td>周六</td>
+                       
+                        </tr>
+                        </tbody>
+                        </table> 
+					<table class="calendar">
+						<tbody>
+						<tr> 
+							<td class="unvisible">30</td>
+                            <td class="unvisible">31</td>
+                          	<td>1</td>
+							<td>2</td>
+                            <td>3</td>
+                        	<td>4</td>
+							<td>5</td>                            
+						</tr>
+						<tr>                        	 
+                            <td>6</td>
+                            <td class="solar">立冬</td>												                         
+							<td>8</td>		
+                            <td>9</td>
+                            <td>10</td>
+							<td>11</td>
+							<td>12</td>	 				                           
+						</tr>
+						<tr>                            	                  	
+							<td>13</td>
+                            <td>14</td>
+							<td>15</td>		
+                            <td>16</td>	
+                            <td>17</td>
+                            <td>18</td>
+							<td>19</td>     					                            
+						</tr>						
+						<tr>	        	                 	
+							<td>20</td>
+							<td>21</td>					
+							<td class="solar">小雪</td>	
+							<td>23</td>							
+                            <td>24</td>
+                        	<td>25</td>
+							<td>26</td>                           
+						</tr>
+						<tr>                        	 
+                        	<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>	
+                            <td class="unvisible">1</td>
+                        	<td class="unvisible">2</td>
+							<td class="unvisible">3</td>            						
+						</tr>
+						<tr>                         	           	                                             
+							<td class="unvisible">4</td>
+							<td class="unvisible">5</td>
+							<td class="unvisible">6</td>
+                            <td class="unvisible">7</td>
+                            <td class="unvisible">8</td>
+							<td class="unvisible">9</td>
+                            <td class="unvisible">10</td>						
+						</tr>
+						</tbody>
+					</table>
+				</div>  
+            </li>
+            
+			<li><img src="/solarstory/public/static/image/month_12.jpg">
+             <div class="calendarContainer">
+					<div class="calendarHead1"><p>十二月</p></div>
+                     <table class="week">
+                    	<tbody>
+                        <tr> 
+                        <td>周日</td>
+                        <td>周一</td>
+                        <td>周二</td>
+                        <td>周三</td>
+                        <td>周四</td>
+                        <td>周五</td>
+                        <td>周六</td>
+                       
+                        </tr>
+                        </tbody>
+                        </table> 
+					<table class="calendar">
+						<tbody>
+						<tr> 
+                        	<td class="unvisible">27</td>                          	
+							<td class="unvisible">28</td>
+							<td class="unvisible">29</td>
+							<td class="unvisible">30</td>
+                          	<td>1</td>
+							<td>2</td>
+                            <td>3</td>
+                        	                            
+						</tr>
+						<tr>
+                        	<td>4</td>
+							<td>5</td>  
+                            <td>6</td>
+                            <td class="solar">大雪</td>												                         
+							<td>8</td>		
+                            <td>9</td>
+                            <td>10</td>
+											                           
+						</tr>
+						<tr>    
+                        	<td>11</td>
+							<td>12</td>	                   	
+							<td>13</td>
+							<td>14</td>	
+							<td>15</td>		
+                            <td>16</td>	
+                            <td>17</td>					                            
+						</tr>						
+						<tr>	  
+                        	
+                        	<td>18</td>
+							<td>19</td>                      	
+							<td>20</td>
+							<td class="solar">冬至</td>				
+							<td>22</td>
+							<td>23</td>							
+                            <td>24</td>
+                        	                          
+						</tr>
+						<tr>
+                        	<td>25</td>
+							<td>26</td>  
+                        	<td>27</td>
+							<td>28</td>
+							<td>29</td>
+							<td>30</td>
+                            <td>31</td>
+							
+						</tr>
+						<tr> 
+                        	<td class="unvisible">1</td>
+                        	<td class="unvisible">2</td>
+							<td class="unvisible">3</td>                       	                                             
+							<td class="unvisible">4</td>
+							<td class="unvisible">5</td>
+							<td class="unvisible">6</td>
+                            <td class="unvisible">7</td>				
+						</tr>
+						</tbody>
+					</table>
+				</div>  
+                </li> 
+
+		</ul>
+	</div>
+ 
+	</div>
+    
+	<div class="news_head_container">
+			<div class="news_head">
+				<p>短新闻</p>
+				<a href="#">
+				<div>今年清明提前一天？专家：清明是节气 没固定日期</div>
+				</a>
+			</div>
+       
+			<div class="news_head">
+				<p>短新闻</p>
+				<a href="#">
+				<div>春分是哪一天？春分该注意什么？</div>
+				</a>
+			</div>
+		<div class="news_head">
+       		<p>短新闻</p>
+			<a href="#">
+			<div>为何2015年立秋属于“早立秋"？</div>
+			</a>
+        </div>
+		<div class="news_head"></div>
+		<div class="news_head"></div>
+	</div>
+	<div class="news_main">
+		<h2>今年清明提前一天？专家：清明是节气 没固定日期</h2>
+		<p class="intro">2016-04-01 09:15:04  北京日报</p>
+		<p class="mainarticle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;报讯（实习生 王天淇）清明节即将到来，一些市民惊奇地发现，今年日历上的清明节是4月4日。“清明节不都是4月5日吗？怎么今年提前了一天？”气象专家称，清明作为一个节气，并不固定在某一天，而是跟地球公转有关。清明一般会出现在每年4月4日至6日中的一天。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为什么清明节的日期会“前后跑”？市气象局高级工程师张明英介绍，清明节是惟一既是节气又是节日的日子，它的日期不是按照时间，而是按照太阳黄经来进行计算的。张明英解释，地球绕太阳公转一周约365天，地球的公转运行线路就称为黄道。黄经是黄道上的经度度量坐标。按天文学惯例，太阳黄经以春分点为起点自西向东度量，分360度。古人把太阳黄经的360度划分成24等份，每份15度，为一个节气。两个节气间相隔日数为15天左右，全年即有二十四节气。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;清明节气时，地球公转到达太阳黄经15度位置。但是由于地球公转一周的时间不一定是严格的365天，所以在节气的划分上也可能出现日期不固定的现象。一般情况下，每年春分后15天左右即为清明，具体日期前后变动不超过三天。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;清明节的日期不固定，也使小长假的休假日存在一定变化。事实上，我国的清明节法定节假日为1天，与相邻周末的连休调休政策使得清明小长假出现3天假期。对于假期加班的市民，是不是在法定节假日“正日子”加班，可关系到获得工资报酬的多少。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北京义贤律师事务所主任黄乐平律师介绍，根据我国劳动法规定，支付加班费的具体标准是：在标准工作日内安排劳动者延长工作时间的，支付不低于日工资150%的工资报酬；法定休息日安排劳动者工作又不能安排补休的，支付不低于日工资200%的工资报酬；法定节假日安排劳动者工作的，支付不低于日工资的300%的工资报酬。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此规定下，以今年清明节假期为例，4月4日为清明节，因此在4月4日加班可获得不低于日工资300%的报酬，而在4月2日、3日周末这两天加班则可获得不低于日工资200%的报酬。</p>
+	</div>
+<!--
+		<div class="terms">
+			<div class="terms_up"></div>
+			<div class="terms_down"></div>
+		</div>
+    
+-->
+	</div>
+<import file='js/jQuery' />
+<import file='js/index' />
+<import file='js/jquery_flexslider' />
+<!-- <script src="js/jQuery.js"></script>
+<script src="js/index.js"></script>
+<script src="js/jquery.flexslider.js"></script> -->
+<script>
+$(document).ready(function(){
+	$(".flexslider").flexslider({
+		animation:"fade",
+		slideshowSpeed:5000,
+		diretionNav:true,
+		animationLoop:true,
+		pauseOnHover:true,
+		prevText:"Previous",
+		nextText:"Next"
+	});
+	$(".news_head").hover(function(){
+		$(this).animate({opacity:"1.0",top:"-3px"},150).css("boxShadow","0px 0px 10px 0px  black");
+	},function(){
+		$(this).animate({opacity:"0.7",top:"0px"},150).css("boxShadow","0 0 0 0 black");
+	})
+	
+	
+
+})
+</script>
+
+
+  
+</body>
+</html>

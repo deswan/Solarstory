@@ -1,0 +1,176 @@
+<include file='public/header' />
+		<div class='leftnav'>
+			<ul>
+				<a href=<{:U('story/index')}> ><li>首页<i class="glyphicon glyphicon-home"></i></li></a>
+				<notempty name='userInform'>
+					<a href=<{:U('story/homestory',['uid'=>$userInform['id']])}> class='active'><li>故事<i class="fa fa-pencil"></i></li></a>
+					<a href=<{:U('story/likeBeStory',['uid'=>$userInform['id']])}>><li>新的关注<i class="fa fa-star"></i></li></a>
+					<a href=<{:U('story/commentout')}>><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
+				</notempty>
+				<empty name='userInform'>
+					<a href='#'><li>故事<i class="fa fa-pencil"></i></li></a>
+					<a href="#"><li>新的关注<i class="fa fa-star"></i></li></a>
+					<a href="#"><li>评论<i class="glyphicon glyphicon-comment"></i></li></a>
+				</empty>
+
+			</ul>
+		</div>	
+		<div class="left">
+
+			<div class="homehead">
+				<!-- <div class="placeholder"></div> -->
+				<div class="userinformation">
+					<img src="__PUBLIC__/<{$currentUserInform.imgurl}>">
+					<h3><{$currentUserInform.username}></h3>
+					<div class='homeheadcontainer'>
+						<p class="num"><{$currentUserInform.storynum|default=0}></p>
+						<p class="title">故事</p>
+					</div>
+					<div class='homeheadcontainer'>
+						<p class="num"><{$currentUserInform.likenum|default=0}></p>
+						<p class="title">关注度</p>
+					</div>
+					<div class="placeholder"></div>
+				</div>
+			</div>
+			<div class="homebanner">
+				<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+				    <div class="navbar-header">
+				      <a class="navbar-brand" href="#"><{$currentUserInform['username']}></a>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href=<{:U('story/homestory',['uid'=>$currentUserInform['id']])}>>故事<span class="sr-only">(current)</span></a></li>
+				        <li><a href=<{:U('story/likeToStory',['uid'=>$currentUserInform['id']])}>>
+						<if condition="$userInform['id'] eq $currentUserInform['id']">
+				    	我关注的 
+					    <else />
+						他关注的
+					    </if>
+				        </a></li>
+				      	<li><a href=<{:U('story/likeBeUsers',['uid'=>$currentUserInform['id']])}>>
+						<if condition="$userInform['id'] eq $currentUserInform['id']">
+				    	谁关注我 
+					    <else />
+						谁关注他
+					    </if>
+				      	</a></li>
+				      </ul>
+				    
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+			</div>
+		
+			<if condition='$articles eq 0'>
+				<div class="articleEmpty">没有可显示的故事</div>
+			</if>
+			<volist name='articles' id='article'>
+				<article>
+					<php>
+					if(!isset($userInform)||(isset($userInform)&&$article['uid']!=$userInform['id'])){
+					</php>
+					<a id=<{$article.id}> class=articlehead
+					<notempty name='article.ulike'>
+					 like=true
+					</notempty>
+					<empty name='article.ulike'>
+					 like=false
+					</empty>
+					><img src="__PUBLIC__/image/leaf.png"></a>
+					<php>
+					}
+					</php>
+					<div class="imgcontainer">
+						<p class="month"><{$article.time|dateConvert="month",###}></p>
+						<p class="day"><{$article.time|dateConvert="day",###}></p>
+						<php>
+						if(isset($userInform)&&$article['uid']==$userInform['id']){
+
+						</php>
+						<a href="<{:U('story/delete',['id'=>$article['id']])}>">删除</a>
+						<php>
+						}
+						</php>
+					</div>
+					<div class="main">
+						<div class="tags">
+							<volist name="article['tags']" id="tag">				
+							<a href="#"><{$tag.name}></a>
+							</volist>
+						</div> 
+						<p class="date">发表于 <{$article.time|dateConvert='date',###}></p>
+						<article class="article"><{$article.text}></article>
+						<p class="article_user"><img src=__PUBLIC__/<{$article['imgurl']}>><a href=<{:U('story/homestory',['uid'=>$article['uid']])}>><{$article.username}></a></p>
+					</div>
+					<footer></footer>
+					<a href="#" class='showComment' id=<{$article.id}>>
+						<i class="glyphicon glyphicon-comment"></i><span>（<{$article.commentnum}>）</span>
+					</a>
+					<div class="comment">
+						<form action='' method="post">
+							<img src=__PUBLIC__/<{$article['imgurl']}>>
+							<input type='hidden' value=<{$article.id}> name='articleid'>
+							<input type="text" name=text>	
+							<input type="submit" value='评论'>
+						</form>	
+						<p class=commentEmpty style="display:none">暂无评论</p>
+						<div class="commentplaceholder"></div>
+						<div class="commentsection">
+						</div>
+						<nav style="text-align:center">
+						  <ul class="pagination pagination-sm">
+						    
+						  </ul>
+						</nav>
+						<div class="clean"></div>
+					</div>
+
+				</article>
+			</volist>
+			<nav style="text-align: center">
+			  <ul class="pagination">
+				  <php>if($currentpage>1){</php>
+				  <li>
+					  <a href=<{:U('story/index',['page'=>$currentpage-1])}> aria-label="Previous">
+						  <span aria-hidden="true">&laquo;</span>
+					  </a>
+				  </li>
+				  <php>}</php>
+				  <php>
+					  for($i=$currentpage-4;$i<$currentpage+4;$i++){
+					  if($i>0&&$i<$articlepage+1){
+				  </php>
+
+				  <li
+				  <php>
+					  if($i==$currentpage){
+				  </php>
+				  class=active
+				  <php>
+					  }
+				  </php>
+				  >
+				  <a href=
+							 <php>echo "http://localhost/solarstory/index.php/Home/story/index/page/".$i</php>
+					  >
+					  <php>echo $i</php>
+				  </a>
+				  </li>
+
+				  <php>}}</php>
+				  <php>if($currentpage<$articlepage){</php>
+				  <li>
+					  <a href=<{:U('story/index',['page'=>$currentpage+1])}> aria-label="Next">
+						  <span aria-hidden="true">&raquo;</span>
+					  </a>
+				  </li>
+				  <php>}</php>
+			  </ul>
+			</nav>
+		</div>
+<include file='public/right' />
+<include file='public/footer' />>
