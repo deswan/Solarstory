@@ -171,7 +171,7 @@
 			  <ul class="pagination">
 				  <?php if($currentpage>1){ ?>
 				  <li>
-					  <a href=<?php echo U('story/index',['page'=>$currentpage-1]);?> aria-label="Previous">
+					  <a href=<?php echo U('story/likeBeStory',['uid'=>$currentUserInform['id'],'page'=>$currentpage-1]);?> aria-label="Previous">
 						  <span aria-hidden="true">&laquo;</span>
 					  </a>
 				  </li>
@@ -193,7 +193,7 @@
 				  <?php }} ?>
 				  <?php if($currentpage<$articlepage){ ?>
 				  <li>
-					  <a href=<?php echo U('story/index',['page'=>$currentpage+1]);?> aria-label="Next">
+					  <a href=<?php echo U('story/likeBeStory',['uid'=>$currentUserInform['id'],'page'=>$currentpage+1]);?> aria-label="Next">
 						  <span aria-hidden="true">&raquo;</span>
 					  </a>
 				  </li>

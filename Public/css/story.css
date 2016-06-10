@@ -5,6 +5,16 @@
 	list-style: none;
 	font-family: sans-serif "微软雅黑";
 }
+#canvas{
+	position:absolute;
+	top:60px;
+	left:0px;
+	z-index: 1000;
+}
+#canvasbg{
+	position:absolute;
+	z-index: 1000;
+}
 .storybg{
 	width: 100%;
 	height: 1500px;
@@ -71,6 +81,7 @@ a#tomodal3{
 	margin: 0px auto;
 	padding:30px 0 0 0;
 	background-color: rgba(0,0,0,0.4);
+	position: relative;
 }
 .leftnav{
 	float: left;
@@ -96,7 +107,9 @@ a#tomodal3{
 	font-size: 15px;
 	margin-left: 50px;
 }
-.leftnav ul a:nth-of-type(3) i{
+.leftnav ul a:nth-of-type(3) i,
+.leftnav ul a:nth-of-type(5) i
+{
 	margin-left: 20px;
 }
 .container>.left{
@@ -290,7 +303,7 @@ a#tomodal3{
 	margin-bottom: 5px;
 }
 .left article .comment .commentdetail .commentleft{
-	width: 7%;
+	width: 5%;
 	height: 20px;
 	float: left;
 }
@@ -306,7 +319,7 @@ a#tomodal3{
 	/*background-color: blue;*/
 }
 .left article .comment .commentdetail .commentright .date{
-	font-size: 9px;
+	font-size: 10px;
 	margin:0px;
 	margin-bottom: 3px;
 }
@@ -535,6 +548,9 @@ a:visited{
 {
 	margin-bottom: 10px;
 }
+.form-1 fieldset .input-group{
+	margin: 0px;
+}
 
 .form-1 input[type=submit]{
 	float: left;
@@ -573,22 +589,24 @@ a:visited{
 	margin-bottom: 10px;
 
 }
-.form-1.signup fieldset{
+
+.form-1 fieldset{
 	/*width: 100px;*/
 	/*height: 100px;*/
 	height: 55px;
 }
-.form-1.signup .input-group{
-	margin: 0px;
-}
+
 .form-1.signup .input-group:nth-of-type(3){
 	width: 170px;
 	float: left;
 }
-/*.modal2 .modal-dialog{*/
-	/*width: 600px;*/
+.form-1 .input-group:nth-of-type(3){
+	margin:0px
+}
+.modal2 .modal-dialog{
+	width: 600px;
 
-/*}*/
+}
 .modal2 #intro{
 	float: left;
 	width: 280px;
@@ -752,11 +770,12 @@ a:visited{
 	float: left;
 }
 .mycomment .left img{
+	width: 50px;
+	height: 50px;
 	display: block;
 	border-radius: 50%;
 	margin-top:0px;
 	margin-left:10px;
-	width: 80%;
 }
 .mycomment .right{
 	float: left;

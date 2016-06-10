@@ -20,6 +20,12 @@ class StoryController extends Controller
         $mu = D('User');
         $mt = D('Tags');
 
+        $ip = get_client_ip();
+        if(!M('ip')->where(['ip'=>$ip])->find()){
+            $this->assign('ifShowDirect',true);
+        }
+
+
         //发表文章标签
         $writetags = array_merge($mt->where('id>=1 AND id<=34')->select(),
             $mt->where('id>34')->order('hits desc')->limit(10)->select());
@@ -220,11 +226,11 @@ class StoryController extends Controller
     public function likeBeStory($uid,$page=1){
         if(!is_numeric($uid)) return;
         if(!session('?userid')) return;
-        $ma = D('Article');
         $mu = D('User');
         $mt = D('Tags');
-        $mat = D('Article_tags');
 
+
+        
         //导航标签
         $navtags = $mt->order('hits desc')->limit(25)->select();
         $this->assign('navtags',$navtags);
@@ -238,6 +244,7 @@ class StoryController extends Controller
             $res['articles']=0;
         }
         $this->assign('articles',$res['articles']);
+
 
         //分页
         $this->assign('articlepage',intval(($res['count']-1)/$this->articleLimit)+1);
@@ -264,12 +271,14 @@ class StoryController extends Controller
         //正文
         // dump($tagid);
         $userid = session('userid');
-        $res = $mu->getBeLike($uid,$page);
+        $res = $mu->getBeLike($uid,$page,true);
 
         if(!$res['count']){
             $res['articles']=0;
         }
         $this->assign('articles',$res['articles']);
+
+
 
         //分页
         $this->assign('articlepage',intval(($res['count']-1)/$this->articleLimit)+1);

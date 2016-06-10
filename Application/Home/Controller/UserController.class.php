@@ -95,5 +95,16 @@ class UserController extends Controller{
 			$this->ajaxReturn(0);
 		}
 	}
+
+	public function ajaxAddIP(){
+		$ip = get_client_ip();
+		if(!M('ip')->where(['ip'=>$ip])->find()) {
+			M('ip')->add(['ip' => $ip]);
+			$this->ajaxReturn(1);
+		}
+		else{
+			$this->ajaxReturn(0);
+		}
+	}
 }
 ?>

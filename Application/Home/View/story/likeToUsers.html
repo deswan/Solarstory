@@ -101,7 +101,7 @@
   <ul class="pagination">
 	  <php>if($currentpage>1){</php>
 	  <li>
-		  <a href=<{:U('story/index',['page'=>$currentpage-1])}> aria-label="Previous">
+		  <a href=<{:U('story/likeToUsers',['uid'=>$currentUserInform['id'],'page'=>$currentpage-1])}> aria-label="Previous">
 			  <span aria-hidden="true">&laquo;</span>
 		  </a>
 	  </li>
@@ -130,7 +130,7 @@
 	  <php>}}</php>
 	  <php>if($currentpage<$articlepage){</php>
 	  <li>
-		  <a href=<{:U('story/index',['page'=>$currentpage+1])}> aria-label="Next">
+		  <a href=<{:U('story/likeToUsers',['uid'=>$currentUserInform['id'],'page'=>$currentpage+1])}> aria-label="Next">
 			  <span aria-hidden="true">&raquo;</span>
 		  </a>
 	  </li>

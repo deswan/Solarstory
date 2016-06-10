@@ -4,31 +4,31 @@ use Think\Model;
 class UserModel extends Model{
 	protected $insertFields = 'username,password,imgurl';
 	protected $_validate = array(
-     array('username','require','用户名必须'), 
-     array('username','3,21','用户名长度3-21',0,'length'), 
-     array('username','valiSignup','用户名已存在',0,'callback',self::MODEL_INSERT), 
-     array('password','5,15','密码',0,'length'), 
-     array('password','require','密码'), 
-    );
-    protected $_auto = array (
-	    array('imgurl','image/default_head.jpeg'), 
+		array('username','require','用户名必须'),
+		array('username','3,21','用户名长度3-21',0,'length'),
+		array('username','valiSignup','用户名已存在',0,'callback',self::MODEL_INSERT),
+		array('password','5,15','密码',0,'length'),
+		array('password','require','密码'),
+	);
+	protected $_auto = array (
+		array('imgurl','image/default_head.jpeg'),
 		array('imgurl','htmlspecialchars',1,'function')
-     );
-    public $limit = 5;
-    public function valiSignup($username,$password){
-    	if($this->where(['username'=>$username])->find()){
-    		return false;
-    	} 
-    	else{
-    		return true;
-    	}
-    }
-    public function valiLogin($username,$password){
-    	$tuple = $this->where(['username'=>"$username"])->find();
-    	if(!$tuple) return 0;	//找不到该用户名
-    	if($password!=$tuple['password']) return -1;		//密码不正确
-    	return $tuple['id'];
-    }
+	);
+	public $limit = 10;
+	public function valiSignup($username,$password){
+		if($this->where(['username'=>$username])->find()){
+			return false;
+		}
+		else{
+			return true;
+		}
+	}
+	public function valiLogin($username,$password){
+		$tuple = $this->where(['username'=>"$username"])->find();
+		if(!$tuple) return 0;	//找不到该用户名
+		if($password!=$tuple['password']) return -1;		//密码不正确
+		return $tuple['id'];
+	}
 	public function getUserInformation($uid){
 
 		//该用户的故事数目
@@ -81,12 +81,12 @@ class UserModel extends Model{
 				$value['likenum']=0;
 			}
 		}
-		
+
 		return ['articles'=>$res,'count'=>$count];
 	}
-	public function getBeLike($userid,$page){
+	public function getBeLike($userid,$page,$ifUser){
 		$startNumber = ($page-1)*$this->limit;
-		
+
 		//搜索我发表过的文章,根据文章id找出是否存在关注我的用户
 		$res = $this->table('article')->alias('a')->where(['a.userid'=>$userid])
 			->join('article_user au ON au.articleid=a.id','left')
@@ -94,7 +94,10 @@ class UserModel extends Model{
 			->field('u.id,u.username,u.imgurl,a.text,au.time,au.hasRead')
 			->limit($startNumber,$this->limit)
 			->select();
-		$res = array_unique($res);
+		if($ifUser){
+			$res = array_unique($res);
+		}
+
 		$count = $this->table('article')->alias('a')->where(['a.userid'=>$userid])
 			->join('article_user au ON au.articleid=a.id')
 			->count();

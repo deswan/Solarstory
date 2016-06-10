@@ -1,29 +1,10 @@
 $(document).ready(function(){
-	$('.popeasy').popeasy({
-			trigger: '.popeasy',          // id or class of link or button to trigger modal
-			olay:'div.overlay',             // id or class of overlay
-			modals:'div.modal',             // id or class of modal
-			animationEffect: 'fadeIn',   // overlay effect | slideDown or fadeIn | default=fadeIn
-			animationSpeed: 100,            // speed of overlay in milliseconds | default=400
-			moveModalSpeed: 'fast',         // speed of modal movement when window is resized | slow or fast | default=false
-			background: '#333333',           // hexidecimal color code - DONT USE #
-			opacity: 0.5,                   // opacity of modal |  0 - 1 | default = 0.8
-			openOnLoad: false,              // open modal on page load | true or false | default=false
-			docClose: true,                 // click document to close | true or false | default=true    
-			closeByEscape: true,            // close modal by escape key | true or false | default=true
-			moveOnScroll: true,             // move modal when window is scrolled | true or false | default=false
-			resizeWindow: true,             // move modal when window is resized | true or false | default=false
-			close:'.closeBtn'               // id or class of close button
-		});
 	var datalength=0;
 	$pub = 'http://localhost/solarstory/public/';
-
 	$img = $('.left article .articlehead img');
-	
 			
 	$('a.tag_section[father!=0]').hide();
 	$('#write a.tag_section').click(
-
 		function(e){
 			e.preventDefault();
 
@@ -168,7 +149,7 @@ $(document).ready(function(){
 				success:function(data,status){
 					datalength=data['count'];
 					for(var i=0;i<data['comment'].length;i++){
-						if(!data['comment'][i].iflike){
+						if(!data['comment'][i].iflike){		//是否是我发出的评论
 							$node = $('<div class=commentdetail ><hr><div class=commentleft><img src='+$pub+data['comment'][i].imgurl+'></div><div class=commentright><p class=commenttext><a href=http://localhost/solarstory/index.php/home/story/homestory?uid='+data['comment'][i].uid+'>'+data['comment'][i].username+'</a>：'+data['comment'][i].text+'</p><p class=date>发表于：'+data['comment'][i].time+'</p></div></div>');
 						}
 						else{
@@ -332,9 +313,10 @@ $(document).ready(function(){
 		$node.appendTo($section_node);
 	}
 
-	//拼接li (注意只有li)
-	function createNav(datalength,current){
-		var length = parseInt((datalength-1)/10)+1;		//有几页
+	//拼接li (注意只有li)	,当前页的li设为了.active
+	function createNav(datalength,current,limit){
+		if(!arguments[2]){var limit =10}
+		var length = parseInt((datalength-1)/limit)+1;		//有几页
 
 		var nodetxt = '';
 		if(current>1){
@@ -365,7 +347,10 @@ $(document).ready(function(){
 		
 		e.preventDefault();
 	})
+
 	$('.container>.left .users .likerecords').hide();
+
+	//获取关注的记录以及被关注的记录(.belike被关注/.tolike关注谁)
 	$('.container>.left .users .dropmenu').click(function(e){
 		e.preventDefault();
 		$(this).removeClass('glyphicon-chevron-down').addClass('glyphicon-chevron-up');
@@ -373,7 +358,7 @@ $(document).ready(function(){
 		$likerecords = $users.find('.likerecords');
 		$nav = $likerecords.find('nav');
 		if($likerecords.is(':hidden')){
-			if($users.hasClass('belike')) {
+			if($users.hasClass('belike')) {		//被关注的记录
 				$.ajax({
 					url: 'http://localhost/solarstory/index.php/home/story/ajaxLikeRecord',
 					async: true,
@@ -381,16 +366,16 @@ $(document).ready(function(){
 					success: function (data, status) {
 						datalength = data['count'];
 						for (var i = 0; i < data['articles'].length; i++) {
-							createUsers(data['articles'][i], data.ifmyhome).insertBefore($nav);
+							createUsersText(data['articles'][i], data.ifmyhome).insertBefore($nav);
 						}
-						createNav(datalength, 1).appendTo($users.find('nav ul'));
+						createNav(datalength, 1,5).appendTo($users.find('nav ul'));
 						$likerecords.fadeIn(300);
 					},
 					data: 'idlike=' + parseInt($(this).data('idlike')) + '&belikeid=' + parseInt($(this).data('belikeid')),
 					dataType: 'json'
 				})
 			}
-			else if($users.hasClass('tolike')) {
+			else if($users.hasClass('tolike')) {	//关注谁的记录
 				$.ajax({
 					url: 'http://localhost/solarstory/index.php/home/story/ajaxLikeRecord',
 					async: true,
@@ -399,9 +384,9 @@ $(document).ready(function(){
 						datalength = data['count'];
 
 						for(var i=0;i<data['articles'].length;i++){
-							createUsers(data['articles'][i],data.ifmyhome,true).insertBefore($nav);
+							createUsersText(data['articles'][i],data.ifmyhome,true).insertBefore($nav);
 						}
-						createNav(datalength, 1).appendTo($users.find('nav ul'));
+						createNav(datalength, 1,5).appendTo($users.find('nav ul'));
 						$likerecords.fadeIn(300);
 					},
 					data: 'idlike=' + parseInt($(this).data('idlike')) + '&belikeid=' +
@@ -417,25 +402,34 @@ $(document).ready(function(){
 			$likerecords.find('nav ul').empty();
 		}
 	})
+
+	//点击user数字分页
 	$('body').on('click',".container>.left .users nav li a:not([aria-label])",'',function(e){
 		e.preventDefault();
 		var to = $(this).text();
-		dealUsersNav($(this),to)
+		console.log(to)
+		createUsers($(this),to)
 	})
 	$('body').on('click',".container>.left .users nav li:not('.disabled') a[aria-label=Previous]",'',function(e){
 		e.preventDefault();
 		$users = $(this).parents('.users');
-		var to = $users.find('nav li.active').text()-1;
-		dealUsersNav($(this),to)
+		var to = $users.find('nav li.active a').text()-1;
+		console.log(to)
+		createUsers($(this),to)
 	})
 	$('body').on('click',".container>.left .users nav li:not('.disabled') a[aria-label=Next]",'',function(e){
 		e.preventDefault();
 		$users = $(this).parents('.users');
-		var to = $users.find('nav li.active').text()+1;
-		dealUsersNav($(this),to)
+
+		//注意text为字符串,+为连接字符串操作
+		var to = parseInt($users.find('nav li.active a').text())+1;
+		console.log(to)
+		createUsers($(this),to)
 	})
-	function dealUsersNav($li,toPage){
-		$users = $(this).parents('.users');
+
+	//响应分页按钮,封装列表刷新(包括分页部分)
+	function createUsers(li,toPage){
+		$users = li.parents('.users');
 		$likerecords = $users.find('.likerecords');
 		$dropmenu = $users.find('.dropmenu');
 		$.ajax({
@@ -444,26 +438,29 @@ $(document).ready(function(){
 			context:$(this),
 			success:function(data,status){
 				datalength=data['count'];
+
+				//把之前的数据remove掉
 				$likerecords.find('.likerecord').remove();
 			$likerecords.find('nav ul').empty();
 				if($users.hasClass('belike')){
 					for(var i=0;i<data['articles'].length;i++){
-						createUsers(data['articles'][i],data.ifmyhome).insertBefore($nav);
+						createUsersText(data['articles'][i],data.ifmyhome).insertBefore($nav);
 					}
 				}
 				else if($users.hasClass('tolike')){
 					for(var i=0;i<data['articles'].length;i++){
-						createUsers(data['articles'][i],data.ifmyhome,true).insertBefore($nav);
+						createUsersText(data['articles'][i],data.ifmyhome,true).insertBefore($nav);
 					}
 				}
-				createNav(datalength,toPage).appendTo($users.find('nav ul'));
+				createNav(datalength,toPage,5).appendTo($users.find('nav ul'));
 			},
-			data:'idlike='+$dropmenu.data('idlike')+'&belikeid='+$dropmenu.data('belikeid'),
+			data:'idlike='+$dropmenu.data('idlike')+'&belikeid='+$dropmenu.data('belikeid')+'&page='+toPage,
 			dataType:'json'
 	    })
 	}
-	function createUsers(data,ifmyhome){
-		console.log(data)
+
+	//生成信息文本
+	function createUsersText(data,ifmyhome){
 		//未加文章id:data.id
 		var tolike = arguments[2]?arguments[2]:false;
 		var text = '';
@@ -493,7 +490,8 @@ $(document).ready(function(){
 	$('.search span').click(function(e){
 		$(this).parents('form').submit();
 	})
-	
+
+	var ifCanSignUp=false;
 	
 	$('.modal2 input[name=username]').blur(function () {
 		var warning=0;
@@ -529,8 +527,10 @@ $(document).ready(function(){
 			$node = $('<p class="warning"><i class="glyphicon glyphicon-minus-sign"></i>'+warning+'</p>');
 			$(this).parents('fieldset').find('.warning').remove();
 			$(this).parent().after($node);
+			ifCanSignUp=false;
 		}
 		else{
+			ifCanSignUp=true;
 			$(this).siblings('span').find('i').css('color','green');
 			$(this).parents('fieldset').find('.warning').remove();
 		}
@@ -554,8 +554,10 @@ $(document).ready(function(){
 			$node = $('<p class="warning"><i class="glyphicon glyphicon-minus-sign"></i>'+warning+'</p>');
 			$(this).parents('fieldset').find('.warning').remove();
 			$(this).parent().after($node);
+			ifCanSignUp=false;
 		}
 		else{
+			ifCanSignUp=true;
 			$(this).siblings('span').find('i').css('color','green');
 			$(this).parents('fieldset').find('.warning').remove();
 		}
@@ -585,14 +587,91 @@ $(document).ready(function(){
 			$node = $('<p class="warning"><i class="glyphicon glyphicon-minus-sign"></i>'+warning+'</p>');
 			$(this).parents('fieldset').find('.warning').remove();
 			$(this).parent().after($node);
+			ifCanSignUp=false;
 		}
 		else{
-			console.log('ss')
+			ifCanSignUp=true;
 			$(this).siblings('span').css('color','green');
 			$(this).parents('fieldset').find('.warning').remove();
 		}
 	})
-	
+
+		$('.modal2 input[type=submit]').click(function (e) {
+			$('.modal2 input[name=username]').blur();
+			$('.modal2 input[name=password]').blur();
+			$('.modal2 input[name=verify]').blur();
+			if(!ifCanSignUp) {
+				e.preventDefault();
+			}
+		})
+
+	var ifCanLogin = false;
+	$('.modal1 input[name=verify]').blur(function () {
+		var warning=0;
+		var value = $(this).val();
+		if(value) {
+			$.ajax({
+				url: 'http://localhost/solarstory/index.php/home/user/ajaxCheckVerify',
+				async:false,
+				success: function (data, status) {
+					console.log(data)
+					if (!data) {
+						warning='验证码不正确'
+					}
+				},
+				data: "code=" + value,
+				dataType: 'json'
+			})
+		}
+		else{
+			warning='验证码不能为空!'
+		}
+		if(warning){
+			$(this).siblings('span').css('color','orange');
+			$node = $('<p class="warning"><i class="glyphicon glyphicon-minus-sign"></i>'+warning+'</p>');
+			$(this).parents('fieldset').find('.warning').remove();
+			$(this).parent().after($node);
+			ifCanLogin=false;
+		}
+		else{
+			ifCanLogin=true;
+			$(this).siblings('span').css('color','green');
+			$(this).parents('fieldset').find('.warning').remove();
+		}
+	})
+	$('.modal1 input[type=submit]').click(function (e) {
+		var form = $(this).parents('form');
+		var username = form.find('input[name=username]').val();
+		var password = form.find('input[type=password]').val();
+
+		var warning=0;
+		e.preventDefault();
+		$.ajax({
+			url: 'http://localhost/solarstory/index.php/home/user/ajaxCheckLogin',
+			async:false,
+			type:'post',
+			success: function (data, status) {
+				console.log(ifCanLogin)
+				console.log(data)
+				if (!data) {	//data==0/-1
+					form.find('.warning').remove();
+					warning='用户名或密码不正确'
+					$node = $('<p class="warning"><i class="glyphicon glyphicon-minus-sign"></i>'+warning+'</p>');
+					$node.insertBefore(form.find('img'));
+
+
+				}else {
+					// if (ifCanLogin) {
+						form.find('.warning').remove();
+						form.submit();
+					// }
+				}
+			},
+			data: "username=" + username+"&password="+password,
+			dataType: 'json'
+		})
+	})
+
 	$('[data-toggle=modal]').click(function () {
 		$('img.code').click();
 	})

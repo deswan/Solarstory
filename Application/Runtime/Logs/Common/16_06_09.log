@@ -1,0 +1,12 @@
+[ 2016-06-09T19:00:02+08:00 ] ::1 /solarstory/index.php/solarstory/index.php/Home/story/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+ERR: 无法加载模块:Solarstory
+
+[ 2016-06-09T19:00:34+08:00 ] ::1 /solarstory/index.php/solarstory/index.php/Home/story/index.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+ERR: 无法加载模块:Solarstory
+
